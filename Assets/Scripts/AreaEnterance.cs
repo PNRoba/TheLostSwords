@@ -14,6 +14,7 @@ public class AreaEnterance : MonoBehaviour
         }
 
         FadeUI.instance.ClearFade();
+        GameManager.instance.fadingBetweenAreas = false;
     }
 
     // Update is called once per frame

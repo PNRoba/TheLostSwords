@@ -36,6 +36,8 @@ public class ExitArea : MonoBehaviour
 
             //SceneManager.LoadScene(areaToLoad);
             loadAfterFade = true;
+            GameManager.instance.fadingBetweenAreas = true;
+
             FadeUI.instance.FadeBlack();
 
 
