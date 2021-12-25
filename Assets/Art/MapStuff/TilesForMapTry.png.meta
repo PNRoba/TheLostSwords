@@ -1,0 +1,4200 @@
+fileFormatVersion: 2
+guid: 5e4bc20162fd52c44b792490764e9940
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1460584372145923781
+    second: TilesForMapTry_0
+  - first:
+      213: 7556829595630991088
+    second: TilesForMapTry_1
+  - first:
+      213: -7254807614535886033
+    second: TilesForMapTry_2
+  - first:
+      213: -2603342585375534302
+    second: TilesForMapTry_3
+  - first:
+      213: 5021826879371015548
+    second: TilesForMapTry_4
+  - first:
+      213: 9049177524326247116
+    second: TilesForMapTry_5
+  - first:
+      213: 5381728563572009683
+    second: TilesForMapTry_6
+  - first:
+      213: -2291837330329996486
+    second: TilesForMapTry_7
+  - first:
+      213: 5423848405670515194
+    second: TilesForMapTry_8
+  - first:
+      213: -636503014037695987
+    second: TilesForMapTry_9
+  - first:
+      213: -3216662496356056357
+    second: TilesForMapTry_10
+  - first:
+      213: 8735931748020224857
+    second: TilesForMapTry_11
+  - first:
+      213: -7561470218261494469
+    second: TilesForMapTry_12
+  - first:
+      213: 2813860802447498391
+    second: TilesForMapTry_13
+  - first:
+      213: 2807299577791886845
+    second: TilesForMapTry_14
+  - first:
+      213: -2673364677753713029
+    second: TilesForMapTry_15
+  - first:
+      213: -5911212148815445340
+    second: TilesForMapTry_16
+  - first:
+      213: -5491251699866101331
+    second: TilesForMapTry_17
+  - first:
+      213: -7959592046191885379
+    second: TilesForMapTry_18
+  - first:
+      213: 3574014923986875316
+    second: TilesForMapTry_19
+  - first:
+      213: 5480080423424328658
+    second: TilesForMapTry_20
+  - first:
+      213: 5672811994146213698
+    second: TilesForMapTry_21
+  - first:
+      213: -3902060117661446840
+    second: TilesForMapTry_22
+  - first:
+      213: -6805894834727869613
+    second: TilesForMapTry_23
+  - first:
+      213: 430917871104428343
+    second: TilesForMapTry_24
+  - first:
+      213: -3948320290576239578
+    second: TilesForMapTry_25
+  - first:
+      213: -5512397962634381149
+    second: TilesForMapTry_26
+  - first:
+      213: -6623670683377807474
+    second: TilesForMapTry_27
+  - first:
+      213: -7163058919247276100
+    second: TilesForMapTry_28
+  - first:
+      213: -4602667281182681750
+    second: TilesForMapTry_29
+  - first:
+      213: 949314180605401002
+    second: TilesForMapTry_30
+  - first:
+      213: 965882525716216566
+    second: TilesForMapTry_31
+  - first:
+      213: 8012155630787056295
+    second: TilesForMapTry_32
+  - first:
+      213: -2594761664015816258
+    second: TilesForMapTry_33
+  - first:
+      213: 5596783171382850756
+    second: TilesForMapTry_34
+  - first:
+      213: -7184112037046513695
+    second: TilesForMapTry_35
+  - first:
+      213: 76455810179596548
+    second: TilesForMapTry_36
+  - first:
+      213: 1588618951494480586
+    second: TilesForMapTry_37
+  - first:
+      213: -6819257300795631879
+    second: TilesForMapTry_38
+  - first:
+      213: -3631992588987571437
+    second: TilesForMapTry_39
+  - first:
+      213: 4523399538078552187
+    second: TilesForMapTry_40
+  - first:
+      213: -8538503167268545650
+    second: TilesForMapTry_41
+  - first:
+      213: -1374810738895772419
+    second: TilesForMapTry_42
+  - first:
+      213: -2382344006420860250
+    second: TilesForMapTry_43
+  - first:
+      213: 3714868886689371104
+    second: TilesForMapTry_44
+  - first:
+      213: 8273385176169325003
+    second: TilesForMapTry_45
+  - first:
+      213: -7681033588106658783
+    second: TilesForMapTry_46
+  - first:
+      213: 1358035200336052360
+    second: TilesForMapTry_47
+  - first:
+      213: -2104928108557297
+    second: TilesForMapTry_48
+  - first:
+      213: -8932445324100160116
+    second: TilesForMapTry_49
+  - first:
+      213: 5833603966272707033
+    second: TilesForMapTry_50
+  - first:
+      213: 3320076655096114532
+    second: TilesForMapTry_51
+  - first:
+      213: -3637014245583630193
+    second: TilesForMapTry_52
+  - first:
+      213: 2517576389900107856
+    second: TilesForMapTry_53
+  - first:
+      213: -6482275456583612402
+    second: TilesForMapTry_54
+  - first:
+      213: -7177546693516756884
+    second: TilesForMapTry_55
+  - first:
+      213: 5107569979635775169
+    second: TilesForMapTry_56
+  - first:
+      213: -1279997825617654285
+    second: TilesForMapTry_57
+  - first:
+      213: -1460509578938518371
+    second: TilesForMapTry_58
+  - first:
+      213: 1125822101457530730
+    second: TilesForMapTry_59
+  - first:
+      213: 4788217284134769158
+    second: TilesForMapTry_60
+  - first:
+      213: -9048775154821674363
+    second: TilesForMapTry_61
+  - first:
+      213: 6279470586936212969
+    second: TilesForMapTry_62
+  - first:
+      213: 1061919070282170659
+    second: TilesForMapTry_63
+  - first:
+      213: 2455262221657663061
+    second: TilesForMapTry_64
+  - first:
+      213: -5820461930688887014
+    second: TilesForMapTry_65
+  - first:
+      213: -6553733109216548732
+    second: TilesForMapTry_66
+  - first:
+      213: 2971933246440369061
+    second: TilesForMapTry_67
+  - first:
+      213: 7407247306446572127
+    second: TilesForMapTry_68
+  - first:
+      213: -8659538525030409660
+    second: TilesForMapTry_69
+  - first:
+      213: 4218580155219300374
+    second: TilesForMapTry_70
+  - first:
+      213: 8412937343261362575
+    second: TilesForMapTry_71
+  - first:
+      213: -7878311764174350215
+    second: TilesForMapTry_72
+  - first:
+      213: -2379426203117902899
+    second: TilesForMapTry_73
+  - first:
+      213: 4147161889047782286
+    second: TilesForMapTry_74
+  - first:
+      213: 3700735670465373698
+    second: TilesForMapTry_75
+  - first:
+      213: 6625954966098697643
+    second: TilesForMapTry_76
+  - first:
+      213: -1485409643284865002
+    second: TilesForMapTry_77
+  - first:
+      213: -4471918228563204062
+    second: TilesForMapTry_78
+  - first:
+      213: 5811334764616983730
+    second: TilesForMapTry_79
+  - first:
+      213: -5192387334334570895
+    second: TilesForMapTry_80
+  - first:
+      213: 8811693781089370518
+    second: TilesForMapTry_81
+  - first:
+      213: 5081587801201838328
+    second: TilesForMapTry_82
+  - first:
+      213: 3693116853750255236
+    second: TilesForMapTry_83
+  - first:
+      213: -6878787848182704087
+    second: TilesForMapTry_84
+  - first:
+      213: -7931195033828282069
+    second: TilesForMapTry_85
+  - first:
+      213: 972940586149263278
+    second: TilesForMapTry_86
+  - first:
+      213: -8237360331509387811
+    second: TilesForMapTry_87
+  - first:
+      213: -3346852356391100344
+    second: TilesForMapTry_88
+  - first:
+      213: -7146034101194932126
+    second: TilesForMapTry_89
+  - first:
+      213: -3194218781836217842
+    second: TilesForMapTry_90
+  - first:
+      213: 266027652589545865
+    second: TilesForMapTry_91
+  - first:
+      213: -2601138663135995308
+    second: TilesForMapTry_92
+  - first:
+      213: 4603864052238796911
+    second: TilesForMapTry_93
+  - first:
+      213: 4056203216448692689
+    second: TilesForMapTry_94
+  - first:
+      213: -404934954433572920
+    second: TilesForMapTry_95
+  - first:
+      213: -3698181417574128162
+    second: TilesForMapTry_96
+  - first:
+      213: -1532137193996602723
+    second: TilesForMapTry_97
+  - first:
+      213: -1872312263298444514
+    second: TilesForMapTry_98
+  - first:
+      213: 2847407486912261909
+    second: TilesForMapTry_99
+  - first:
+      213: 6076834733282913149
+    second: TilesForMapTry_100
+  - first:
+      213: -5169213457180897108
+    second: TilesForMapTry_101
+  - first:
+      213: -7495216331818475595
+    second: TilesForMapTry_102
+  - first:
+      213: -6824899722513417587
+    second: TilesForMapTry_103
+  - first:
+      213: 8759082211237192641
+    second: TilesForMapTry_104
+  - first:
+      213: 8624328060543437780
+    second: TilesForMapTry_105
+  - first:
+      213: 2667293269246389274
+    second: TilesForMapTry_106
+  - first:
+      213: 1637545199516322780
+    second: TilesForMapTry_107
+  - first:
+      213: -2308000347725237573
+    second: TilesForMapTry_108
+  - first:
+      213: 1792534934612501307
+    second: TilesForMapTry_109
+  - first:
+      213: 7632392831807936199
+    second: TilesForMapTry_110
+  - first:
+      213: 3708310392821395865
+    second: TilesForMapTry_111
+  - first:
+      213: -5098260331372692886
+    second: TilesForMapTry_112
+  - first:
+      213: -2887463775406480718
+    second: TilesForMapTry_113
+  - first:
+      213: -7484909653622615191
+    second: TilesForMapTry_114
+  - first:
+      213: 2750246330354508102
+    second: TilesForMapTry_115
+  - first:
+      213: -6082421163454730298
+    second: TilesForMapTry_116
+  - first:
+      213: 9208612897769919177
+    second: TilesForMapTry_117
+  - first:
+      213: 594094568074622140
+    second: TilesForMapTry_118
+  - first:
+      213: 6377337367850275836
+    second: TilesForMapTry_119
+  - first:
+      213: -9109353683484751053
+    second: TilesForMapTry_120
+  - first:
+      213: -6063897945984557512
+    second: TilesForMapTry_121
+  - first:
+      213: -4945929547096635268
+    second: TilesForMapTry_122
+  - first:
+      213: -609321091575598762
+    second: TilesForMapTry_123
+  - first:
+      213: 1934265891946837149
+    second: TilesForMapTry_124
+  - first:
+      213: -6963756219296977966
+    second: TilesForMapTry_125
+  - first:
+      213: 517666107803900242
+    second: TilesForMapTry_126
+  - first:
+      213: 2130578988599246617
+    second: TilesForMapTry_127
+  - first:
+      213: 7438912951429050155
+    second: TilesForMapTry_128
+  - first:
+      213: -8516733704748894740
+    second: TilesForMapTry_129
+  - first:
+      213: -578803202288796807
+    second: TilesForMapTry_130
+  - first:
+      213: -642386646344080535
+    second: TilesForMapTry_131
+  - first:
+      213: 8020340766493630782
+    second: TilesForMapTry_132
+  - first:
+      213: 5728878586820081133
+    second: TilesForMapTry_133
+  - first:
+      213: -86651233629158964
+    second: TilesForMapTry_134
+  - first:
+      213: -4313691994266256509
+    second: TilesForMapTry_135
+  - first:
+      213: 8422759687268512344
+    second: TilesForMapTry_136
+  - first:
+      213: -7312958115737527222
+    second: TilesForMapTry_137
+  - first:
+      213: 206817275353310150
+    second: TilesForMapTry_138
+  - first:
+      213: -5359522527037991504
+    second: TilesForMapTry_139
+  - first:
+      213: 5150098333978509014
+    second: TilesForMapTry_140
+  - first:
+      213: 1784141766427475212
+    second: TilesForMapTry_141
+  - first:
+      213: -7943293263801440724
+    second: TilesForMapTry_142
+  - first:
+      213: -4195175306355967555
+    second: TilesForMapTry_143
+  - first:
+      213: -8811817903453862814
+    second: TilesForMapTry_144
+  - first:
+      213: -3690967525121443775
+    second: TilesForMapTry_145
+  - first:
+      213: 3082881303596432956
+    second: TilesForMapTry_146
+  - first:
+      213: 7348960616339293035
+    second: TilesForMapTry_147
+  - first:
+      213: -2958060152669375904
+    second: TilesForMapTry_148
+  - first:
+      213: -174435267983635493
+    second: TilesForMapTry_149
+  - first:
+      213: -3031585453569413678
+    second: TilesForMapTry_150
+  - first:
+      213: 1998054075114364276
+    second: TilesForMapTry_151
+  - first:
+      213: -8643260539766277414
+    second: TilesForMapTry_152
+  - first:
+      213: -5906676328201175599
+    second: TilesForMapTry_153
+  - first:
+      213: -5146601536324714946
+    second: TilesForMapTry_154
+  - first:
+      213: -2526178285532258314
+    second: TilesForMapTry_155
+  - first:
+      213: 3805566574902511357
+    second: TilesForMapTry_156
+  - first:
+      213: 8478638181120822117
+    second: TilesForMapTry_157
+  - first:
+      213: 8509564375725205897
+    second: TilesForMapTry_158
+  - first:
+      213: -2395642329027976705
+    second: TilesForMapTry_159
+  - first:
+      213: 615344958275817095
+    second: TilesForMapTry_160
+  - first:
+      213: 5740231719150118428
+    second: TilesForMapTry_161
+  - first:
+      213: -634304885922530497
+    second: TilesForMapTry_162
+  - first:
+      213: -2666834610522814354
+    second: TilesForMapTry_163
+  - first:
+      213: 2773633342872097394
+    second: TilesForMapTry_164
+  - first:
+      213: -4461829808562355272
+    second: TilesForMapTry_165
+  - first:
+      213: -7167051870454606703
+    second: TilesForMapTry_166
+  - first:
+      213: 1425558181841011034
+    second: TilesForMapTry_167
+  - first:
+      213: -2749416663463222566
+    second: TilesForMapTry_168
+  - first:
+      213: -4445874340409622928
+    second: TilesForMapTry_169
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TilesForMapTry_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6ae3a7fb9054410800000000000000
+      internalID: 1460584372145923781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f67ebbba704fd860800000000000000
+      internalID: 7556829595630991088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b1ac589eeb15b90800000000000000
+      internalID: -7254807614535886033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2235b0236b11fdbd0800000000000000
+      internalID: -2603342585375534302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75fa64a0fc11b540800000000000000
+      internalID: 5021826879371015548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca2ae68303259d70800000000000000
+      internalID: 9049177524326247116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da684d6d9dbfaa40800000000000000
+      internalID: 5381728563572009683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3373ba3712c130e0800000000000000
+      internalID: -2291837330329996486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af15f8f5361654b40800000000000000
+      internalID: 5423848405670515194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0251dd81efaa27f0800000000000000
+      internalID: -636503014037695987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2406e808e1c53d0800000000000000
+      internalID: -3216662496356056357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9538dcec3a34c3970800000000000000
+      internalID: 8735931748020224857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3504dc16e2401790800000000000000
+      internalID: -7561470218261494469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c5749cd77dc0720800000000000000
+      internalID: 2813860802447498391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5b360a71885f620800000000000000
+      internalID: 2807299577791886845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ec96b5dfc46ead0800000000000000
+      internalID: -2673364677753713029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2c1ed9ed727fda0800000000000000
+      internalID: -5911212148815445340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da998314ca72bc3b0800000000000000
+      internalID: -5491251699866101331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db345b9a439d98190800000000000000
+      internalID: -7959592046191885379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3be2e23a3799130800000000000000
+      internalID: 3574014923986875316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d387c24c182d0c40800000000000000
+      internalID: 5480080423424328658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f09ace370e9be40800000000000000
+      internalID: 5672811994146213698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d029a3ff819d9c0800000000000000
+      internalID: -3902060117661446840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353216df4ba9c81a0800000000000000
+      internalID: -6805894834727869613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7390c8a458deaf500800000000000000
+      internalID: 430917871104428343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6247cb46d9fb439c0800000000000000
+      internalID: -3948320290576239578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8379842470083b0800000000000000
+      internalID: -5512397962634381149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fc8107b9ef314a0800000000000000
+      internalID: -6623670683377807474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7921d4dd3b79c90800000000000000
+      internalID: -7163058919247276100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651bc56e7a0020c0800000000000000
+      internalID: -4602667281182681750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7d933b734ac2d00800000000000000
+      internalID: 949314180605401002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa72182a01876d00800000000000000
+      internalID: 965882525716216566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a255329815e03f60800000000000000
+      internalID: 8012155630787056295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb92983a30e8dfbd0800000000000000
+      internalID: -2594761664015816258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4b82f24a4cbad40800000000000000
+      internalID: 5596783171382850756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef0c355a28ec4c90800000000000000
+      internalID: -7184112037046513695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40105ce7720af0100800000000000000
+      internalID: 76455810179596548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2384ff488eb0610800000000000000
+      internalID: 1588618951494480586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6561a6d912d51a0800000000000000
+      internalID: -6819257300795631879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3136b82cbf1989dc0800000000000000
+      internalID: -3631992588987571437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_40
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b709654f9e756ce30800000000000000
+      internalID: 4523399538078552187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b1969bb94218980800000000000000
+      internalID: -8538503167268545650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4a9b2cae0bbece0800000000000000
+      internalID: -1374810738895772419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2f0849fb630fed0800000000000000
+      internalID: -2382344006420860250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_44
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3554af19ddd8330800000000000000
+      internalID: 3714868886689371104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc12e83cbf7f0d270800000000000000
+      internalID: 8273385176169325003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_46
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cfe01c5ac776590800000000000000
+      internalID: -7681033588106658783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880c18cc1d5b8d210800000000000000
+      internalID: 1358035200336052360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ccfcb349588fff0800000000000000
+      internalID: -2104928108557297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853969cd44990480800000000000000
+      internalID: -8932445324100160116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d99ef946ef15f050800000000000000
+      internalID: 5833603966272707033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d22169028431e20800000000000000
+      internalID: 3320076655096114532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80d3f830dab68dc0800000000000000
+      internalID: -3637014245583630193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05008ee436a30f220800000000000000
+      internalID: 2517576389900107856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08c91a11d45a06a0800000000000000
+      internalID: -6482275456583612402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68772e7f4b346c90800000000000000
+      internalID: -7177546693516756884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6b3add5dbb1e640800000000000000
+      internalID: 5107569979635775169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd89c262c88c3ee0800000000000000
+      internalID: -1279997825617654285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94705ca64a3bbbe0800000000000000
+      internalID: -1460509578938518371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fe8a58c39bf9f00800000000000000
+      internalID: 1125822101457530730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6021d38304a237240800000000000000
+      internalID: 4788217284134769158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a497c60fa4c6280800000000000000
+      internalID: -9048775154821674363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edb8df8a39252750800000000000000
+      internalID: 6279470586936212969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321c164a4c1bcbe00800000000000000
+      internalID: 1061919070282170659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55667586bf7d21220800000000000000
+      internalID: 2455262221657663061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ca9056b0993fa0800000000000000
+      internalID: -5820461930688887014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4886e68d5767c05a0800000000000000
+      internalID: -6553733109216548732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab604aaa8d6e3920800000000000000
+      internalID: 2971933246440369061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a87301e24dbc660800000000000000
+      internalID: 7407247306446572127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a90c8779323d780800000000000000
+      internalID: -8659538525030409660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610db58dc486b8a30800000000000000
+      internalID: 4218580155219300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_71
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8946b6a0f1c0c470800000000000000
+      internalID: 8412937343261362575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9785b9a013d9aa290800000000000000
+      internalID: -7878311764174350215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3a6e999749afed0800000000000000
+      internalID: -2379426203117902899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e832bb6f3cdad8930800000000000000
+      internalID: 4147161889047782286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206a4b52c77ab5330800000000000000
+      internalID: 3700735670465373698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad5c049fee14fb50800000000000000
+      internalID: 6625954966098697643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610e01aacc3c26be0800000000000000
+      internalID: -1485409643284865002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22865e9701e80f1c0800000000000000
+      internalID: -4471918228563204062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4afdbbd2206a050800000000000000
+      internalID: 5811334764616983730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e10c8da3fe0f7b0800000000000000
+      internalID: -5192387334334570895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691c95bbecc694a70800000000000000
+      internalID: 8811693781089370518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_82
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f808998e2d658640800000000000000
+      internalID: 5081587801201838328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ecac52636904330800000000000000
+      internalID: 3693116853750255236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_84
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928dbcfb5e2a980a0800000000000000
+      internalID: -6878787848182704087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21b254532cbee190800000000000000
+      internalID: -7931195033828282069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_86
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7bcf8ee44908d00800000000000000
+      internalID: 972940586149263278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd2d710c640fad80800000000000000
+      internalID: -8237360331509387811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_88
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84021a5a3879d81d0800000000000000
+      internalID: -3346852356391100344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260c275a8df24dc90800000000000000
+      internalID: -7146034101194932126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_90
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0275cd01fadba3d0800000000000000
+      internalID: -3194218781836217842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_91
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989e7059dbe11b300800000000000000
+      internalID: 266027652589545865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_92
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a9e34da26e6ebd0800000000000000
+      internalID: -2601138663135995308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6842e396f534ef30800000000000000
+      internalID: 4603864052238796911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_94
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1a83da5578a4830800000000000000
+      internalID: 4056203216448692689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf09dbedc1616af0800000000000000
+      internalID: -404934954433572920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_96
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed52b82389b6dacc0800000000000000
+      internalID: -3698181417574128162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d923ba4f651ccbae0800000000000000
+      internalID: -1532137193996602723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e131d7d9ae53406e0800000000000000
+      internalID: -1872312263298444514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f613ce506048720800000000000000
+      internalID: 2847407486912261909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_100
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b65145ef0455450800000000000000
+      internalID: 6076834733282913149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca050949fb34348b0800000000000000
+      internalID: -5169213457180897108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfd0432574abf790800000000000000
+      internalID: -7495216331818475595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8afcebbcd51941a0800000000000000
+      internalID: -6824899722513417587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_104
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c36c3f0dd28e8970800000000000000
+      internalID: 8759082211237192641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_105
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db002b6da4cfa770800000000000000
+      internalID: 8624328060543437780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ca831b811240520800000000000000
+      internalID: 2667293269246389274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_107
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb01d0deaab9b610800000000000000
+      internalID: 1637545199516322780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_108
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2fb5c79e558ffd0800000000000000
+      internalID: -2308000347725237573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b336e09960d50e810800000000000000
+      internalID: 1792534934612501307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_110
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c65626a7d4bbe960800000000000000
+      internalID: 7632392831807936199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_111
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9913201a7a0967330800000000000000
+      internalID: 3708310392821395865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ab0188d375f39b0800000000000000
+      internalID: -5098260331372692886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_113
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2a615aefaade7d0800000000000000
+      internalID: -2887463775406480718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9639ee7a352402890800000000000000
+      internalID: -7484909653622615191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_115
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6412a9d4776da2620800000000000000
+      internalID: 2750246330354508102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf66f98d26e69ba0800000000000000
+      internalID: -6082421163454730298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c218a524a09bcf70800000000000000
+      internalID: 9208612897769919177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4b31dacd5ae3800800000000000000
+      internalID: 594094568074622140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_119
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf35a872c8ad08850800000000000000
+      internalID: 6377337367850275836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bce7a9613159180800000000000000
+      internalID: -9109353683484751053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e9e5f22f4b8dba0800000000000000
+      internalID: -6063897945984557512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78423518478c5bb0800000000000000
+      internalID: -4945929547096635268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_123
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651bb7e02b14b87f0800000000000000
+      internalID: -609321091575598762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_124
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9435ae9494e7da10800000000000000
+      internalID: 1934265891946837149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbe2663d94cb5f90800000000000000
+      internalID: -6963756219296977966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25919e3159e1f2700800000000000000
+      internalID: 517666107803900242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_127
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f7e554d46519d10800000000000000
+      internalID: 2130578988599246617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f2bf09ae35c3760800000000000000
+      internalID: 7438912951429050155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce578d1b1db7ec980800000000000000
+      internalID: -8516733704748894740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_130
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bb7bcdd8da7f7f0800000000000000
+      internalID: -578803202288796807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_131
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963e438afb8c517f0800000000000000
+      internalID: -642386646344080535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31ef6cfe69fd4f60800000000000000
+      internalID: 8020340766493630782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5b0c8c8b0118f40800000000000000
+      internalID: 5728878586820081133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_134
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc14f2089272ccef0800000000000000
+      internalID: -86651233629158964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_135
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b30537cffa224c0800000000000000
+      internalID: -4313691994266256509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_136
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852be145f47a3e470800000000000000
+      internalID: 8422759687268512344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c9726e657238a90800000000000000
+      internalID: -7312958115737527222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c329d65733ced200800000000000000
+      internalID: 206817275353310150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_139
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5523a58a62f95b0800000000000000
+      internalID: -5359522527037991504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_140
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6debe1bf523d87740800000000000000
+      internalID: 5150098333978509014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_141
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0df8d8db7b82c810800000000000000
+      internalID: 1784141766427475212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_142
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26ac58acd0c3c190800000000000000
+      internalID: -7943293263801440724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9792e294eb7c5c0800000000000000
+      internalID: -4195175306355967555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_144
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2648437cd4226b580800000000000000
+      internalID: -8811817903453862814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14832ab679c07ccc0800000000000000
+      internalID: -3690967525121443775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_146
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3efe89363898ca20800000000000000
+      internalID: 3082881303596432956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b634d3d7eb0ccf560800000000000000
+      internalID: 7348960616339293035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_148
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06277efa6fbd2f6d0800000000000000
+      internalID: -2958060152669375904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_149
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb09874c08449df0800000000000000
+      internalID: -174435267983635493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dde0cd8715ade5d0800000000000000
+      internalID: -3031585453569413678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_151
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d963d58938abb10800000000000000
+      internalID: 1998054075114364276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada74124558fc0880800000000000000
+      internalID: -8643260539766277414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_153
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3c56ac25470ea0800000000000000
+      internalID: -5906676328201175599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_154
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3eb2eaab299398b0800000000000000
+      internalID: -5146601536324714946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff5b8bcb3631fcd0800000000000000
+      internalID: -2526178285532258314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_156
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df60a2a13a610d430800000000000000
+      internalID: 3805566574902511357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_157
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b45c4018c2aa570800000000000000
+      internalID: 8478638181120822117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_158
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9896b60d6bb081670800000000000000
+      internalID: 8509564375725205897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e5619ef7f0ced0800000000000000
+      internalID: -2395642329027976705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_160
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e8b54baf42a8800800000000000000
+      internalID: 615344958275817095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_161
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c166f54e55669af40800000000000000
+      internalID: 5740231719150118428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bfa43211f7237f0800000000000000
+      internalID: -634304885922530497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_163
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68021d1d008dfad0800000000000000
+      internalID: -2666834610522814354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272121b74dced7620800000000000000
+      internalID: 2773633342872097394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_165
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3446ccd656412c0800000000000000
+      internalID: -4461829808562355272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_166
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19411c6eb44898c90800000000000000
+      internalID: -7167051870454606703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_167
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51094b0d9998c310800000000000000
+      internalID: 1425558181841011034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_168
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad22cb29c1c18d9d0800000000000000
+      internalID: -2749416663463222566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesForMapTry_169
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e3cd7b7d41d42c0800000000000000
+      internalID: -4445874340409622928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

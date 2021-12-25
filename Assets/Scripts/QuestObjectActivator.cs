@@ -26,8 +26,8 @@ public class QuestObjectActivator : MonoBehaviour
     }
 
     public void CheckCompletion(){
-        Debug.Log(questToCheck);
-        Debug.Log(QuestManager.instance.CheckIfComplete(questToCheck));
+        // Debug.Log(questToCheck);
+        // Debug.Log(QuestManager.instance.CheckIfComplete(questToCheck));
         if(QuestManager.instance.CheckIfComplete(questToCheck)){
             
             objectToActivate.SetActive(activeIfComplete);

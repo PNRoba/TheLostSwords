@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - breakable
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -43,6 +45,12 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 2973537325
+    locked: 0
+  - name: Battle BG
+    uniqueID: 2515137907
+    locked: 0
+  - name: Battle Chars
+    uniqueID: 198911457
     locked: 0
   - name: Player
     uniqueID: 2983829473

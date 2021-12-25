@@ -14684,6 +14684,10 @@ PrefabInstance:
       propertyPath: exitName
       value: K011-K012
       objectReference: {fileID: 0}
+    - target: {fileID: 6752380437732380936, guid: ccb4dc27fd8493f4696d34a5d2d5392b, type: 3}
+      propertyPath: areaToLoad
+      value: Kingdom0_1-1
+      objectReference: {fileID: 0}
     - target: {fileID: 6752380437732380937, guid: ccb4dc27fd8493f4696d34a5d2d5392b, type: 3}
       propertyPath: m_Size.y
       value: 33.034073
@@ -14927,6 +14931,14 @@ PrefabInstance:
       propertyPath: map
       value: 
       objectReference: {fileID: 97517244}
+    - target: {fileID: 7124669798998756903, guid: 702dc6b2ffccdb0479c59a20341b6f9d, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 7060338749575733307, guid: 60c9b82639150a346863697b68daa6ac, type: 3}
+    - target: {fileID: 7124669798998756903, guid: 702dc6b2ffccdb0479c59a20341b6f9d, type: 3}
+      propertyPath: musicToPlay
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 702dc6b2ffccdb0479c59a20341b6f9d, type: 3}
 --- !u!1001 &768583298564867861

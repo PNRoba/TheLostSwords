@@ -8,12 +8,30 @@ public class QuestManager : MonoBehaviour
     public bool[] questMarkersComplete;
 
     public static QuestManager instance;
+
+    public GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
 
         questMarkersComplete = new bool[questMarkerNames.Length];
+
+        // gameManager = GameManager.instance;
+        
+        // Debug.Log(gameManager.FileExists());
+        // if(gameManager.FileExists()){
+        //     gameManager.Load();
+        //     for(int i=0; questMarkerNames.Length > i; i++){
+        //         for(int j=0; gameManager.data.questNames.Length > j; j++){
+        //             if(gameManager.data.questNames[j] == questMarkerNames[i]){
+        //                 questMarkersComplete[i] = gameManager.data.ifComplete[j];
+        //                 continue;
+        //             }
+        //         }
+        //     }
+        //     //questMarkersComplete = gameManager.data.ifComplete;
+        // }
     }
 
     // Update is called once per frame
@@ -47,8 +65,20 @@ public class QuestManager : MonoBehaviour
 
     public void MarkQuestComplete(string questToMark){
         questMarkersComplete[GetQuestNumber(questToMark)] = true;
+        UpdateLocalQuestObjects();
     }
     public void MarkQuestIncomplete(string questToMark){
         questMarkersComplete[GetQuestNumber(questToMark)] = false;
+        UpdateLocalQuestObjects();
+    }
+
+    public void UpdateLocalQuestObjects(){
+        QuestObjectActivator[] questObjects = FindObjectsOfType<QuestObjectActivator>();
+
+        if(questObjects.Length > 0){
+            for(int i=0; i< questObjects.Length; i++){
+                questObjects[i].CheckCompletion();
+            }
+        }
     }
 }

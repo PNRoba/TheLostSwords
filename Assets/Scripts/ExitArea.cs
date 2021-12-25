@@ -13,6 +13,8 @@ public class ExitArea : MonoBehaviour
     public float waitToLoad = 1f;
     public bool loadAfterFade;
 
+    public bool ifSouthNorthExit; // 1 - up, down enterances/exits; 0 left, right enterances/exits
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,8 @@ public class ExitArea : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other){
         if(other.tag == "Player"){
+
+            PlayerController.instance.ifSouthNorthEnterance = ifSouthNorthExit;
 
             //SceneManager.LoadScene(areaToLoad);
             loadAfterFade = true;

@@ -1,0 +1,48 @@
+Date : 2021-12-22 01:46:56
+Directory : c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts
+Total : 24 files,  1419 codes, 107 comments, 325 blanks, all 1851 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C#       |         24 |      1,419 |        107 |        325 |      1,851 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                      |         24 |      1,419 |        107 |        325 |      1,851 |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                               | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\AreaEnterance.cs        | C#       |         25 |          3 |          6 |         34 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\AudioManager.cs         | C#       |         35 |          2 |         10 |         47 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\CameraController.cs     | C#       |         37 |          5 |         12 |         54 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\CharacterStats.cs       | C#       |         59 |          4 |         11 |         74 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\DialogActivator.cs      | C#       |         32 |          2 |          7 |         41 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\DialogManager.cs        | C#       |         62 |          3 |         17 |         82 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\EssentialLoader.cs      | C#       |         30 |          2 |          8 |         40 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ExitArea.cs             | C#       |         36 |          4 |         13 |         53 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\FadeUI.cs               | C#       |         40 |          2 |          8 |         50 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\GameManager.cs          | C#       |        331 |          5 |         47 |        383 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\GameMenu.cs             | C#       |        173 |         11 |         37 |        221 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Item.cs                 | C#       |         62 |          3 |         14 |         79 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ItemButton.cs           | C#       |         31 |          2 |          8 |         41 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\LoadingScene.cs         | C#       |         22 |          2 |          5 |         29 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\MainMenu.cs             | C#       |         31 |          2 |          8 |         41 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PickUpItem.cs           | C#       |         27 |          2 |          7 |         36 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerController.cs     | C#       |         52 |          4 |         15 |         71 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerData.cs           | C#       |         63 |         12 |         22 |         97 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerLoader.cs         | C#       |         16 |          2 |          4 |         22 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestManager.cs         | C#       |         54 |         18 |         12 |         84 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestMarker.cs          | C#       |         43 |          2 |         10 |         55 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestObjectActivator.cs | C#       |         25 |          4 |          8 |         37 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Shop.cs                 | C#       |        101 |          5 |         27 |        133 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ShopKeeper.cs           | C#       |         32 |          6 |          9 |         47 |
+| Total                                                                                                  |          |      1,419 |        107 |        325 |      1,851 |
++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

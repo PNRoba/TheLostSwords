@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
@@ -30,6 +31,10 @@ public class GameMenu : MonoBehaviour
 
     public Text moneyText;
 
+    public GameManager gameManager;
+
+    public string mainMenuName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +54,7 @@ public class GameMenu : MonoBehaviour
                 UpdateMainStats();
                 GameManager.instance.gameMenuOpen = true;
             }
+            AudioManager.instance.PlaySFX(5);
         }
     }
 
@@ -90,6 +96,7 @@ public class GameMenu : MonoBehaviour
     }
 
     public void ToggleWindow(int winNum){
+        Debug.Log(winNum);
         UpdateMainStats();
         for(int i = 0; i<windows.Length; i++){
             if(i==winNum){
@@ -194,5 +201,21 @@ public class GameMenu : MonoBehaviour
     public void UseItem(int selectChar){
         activeItem.Use(selectChar);
         CloseChooseChar();
+    }
+
+    public void SaveButton(){
+        gameManager.Save();
+    }
+
+    public void PlayButtonSound(){
+        AudioManager.instance.PlaySFX(4);
+    }
+
+    public void QuitGame(){
+        SceneManager.LoadScene(mainMenuName);
+        Destroy(GameManager.instance.gameObject);
+        Destroy(PlayerController.instance.gameObject);
+        Destroy(AudioManager.instance.gameObject);
+        Destroy(gameObject);
     }
 }

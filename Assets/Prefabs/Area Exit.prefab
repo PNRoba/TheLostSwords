@@ -115,6 +115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 195a598842eb5084f8e5ea243f769165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaToLoad: Kingdom0_1-1
+  areaToLoad: 
   exitName: 
   theEnterance: {fileID: 2043597353}
+  waitToLoad: 1
+  loadAfterFade: 0
+  ifSouthNorthExit: 0

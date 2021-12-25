@@ -18,6 +18,10 @@ public class PlayerController : MonoBehaviour
 
     public bool canMove = true;
 
+    public bool ifSouthNorthEnterance; // 1 - up, down enterances/exits; 0 left, right enterances/exits
+
+    public GameManager gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,8 +49,12 @@ public class PlayerController : MonoBehaviour
         // Player Animation
         myAnim.SetFloat("moveX", theRB.velocity.x);
         myAnim.SetFloat("moveY", theRB.velocity.y);
-
-        if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Horizontal")==-1 || Input.GetAxisRaw("Vertical")==1 || Input.GetAxisRaw("Vertical")==-1){
+        if(Input.GetButtonDown("attack")){
+            if(canMove){
+                StartCoroutine(AttackCo());
+            }
+        }
+        else if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Horizontal")==-1 || Input.GetAxisRaw("Vertical")==1 || Input.GetAxisRaw("Vertical")==-1){
             if(canMove){
                 myAnim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
                 myAnim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
@@ -63,5 +71,23 @@ public class PlayerController : MonoBehaviour
     public void SetBoundaries(Vector3 bottomLeft, Vector3 topRight){
         bottomLeftLimit = bottomLeft + new Vector3(0.6f,0.9f,0f);
         topRightLimit = topRight+ new Vector3(-0.6f,-0.9f,0f);
+    }
+
+    public IEnumerator AttackCo(){
+        myAnim.SetBool("attacking", true);
+        yield return null;
+        myAnim.SetBool("attacking", false);
+        yield return new WaitForSeconds(.21f);
+    }
+
+    public void Knock(float knockTime){
+        StartCoroutine(KnockCo(knockTime));
+    }
+
+    private IEnumerator KnockCo(float knockTime){
+        if(theRB != null){
+            yield return new WaitForSeconds(knockTime);
+            theRB.velocity = Vector2.zero;
+        }
     }
 }

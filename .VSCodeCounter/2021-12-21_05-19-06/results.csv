@@ -1,0 +1,24 @@
+"filename", "language", "C#", "comment", "blank", "total"
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\AreaEnterance.cs", "C#", 25, 3, 6, 34
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\AudioManager.cs", "C#", 12, 2, 5, 19
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\CameraController.cs", "C#", 31, 5, 10, 46
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\CharacterStats.cs", "C#", 59, 4, 11, 74
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\DialogActivator.cs", "C#", 32, 2, 7, 41
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\DialogManager.cs", "C#", 62, 3, 17, 82
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\EssentialLoader.cs", "C#", 25, 2, 6, 33
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ExitArea.cs", "C#", 36, 4, 13, 53
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\FadeUI.cs", "C#", 40, 2, 8, 50
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\GameManager.cs", "C#", 309, 5, 43, 357
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\GameMenu.cs", "C#", 160, 11, 34, 205
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Item.cs", "C#", 62, 3, 14, 79
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ItemButton.cs", "C#", 31, 2, 8, 41
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PickUpItem.cs", "C#", 27, 2, 7, 36
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerController.cs", "C#", 61, 4, 16, 81
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerData.cs", "C#", 62, 12, 21, 95
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerLoader.cs", "C#", 16, 2, 4, 22
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestManager.cs", "C#", 67, 5, 12, 84
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestMarker.cs", "C#", 43, 2, 10, 55
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestObjectActivator.cs", "C#", 25, 4, 8, 37
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Shop.cs", "C#", 101, 5, 27, 133
+"c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ShopKeeper.cs", "C#", 32, 6, 9, 47
+"Total", "-", 1318, 90, 296, 1704

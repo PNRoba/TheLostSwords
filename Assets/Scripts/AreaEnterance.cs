@@ -9,8 +9,16 @@ public class AreaEnterance : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Vector3 p = PlayerController.instance.transform.position;
         if(enteranceName == PlayerController.instance.exitName){
-            PlayerController.instance.transform.position = transform.position;
+            //PlayerController.instance.transform.position = transform.position;
+            if(PlayerController.instance.ifSouthNorthEnterance){
+                p.y = transform.position.y;
+                PlayerController.instance.transform.position = p;
+            }else{
+                p.x = transform.position.x;
+                PlayerController.instance.transform.position = p;
+            }
         }
 
         FadeUI.instance.ClearFade();

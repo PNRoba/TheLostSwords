@@ -6,9 +6,120 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 54027f97e3d0ee84a882e9a2b365e0bd
+  - enabled: 1
     path: Assets/Scenes/Kingdom0_1-1.unity
     guid: 75b26420d68f8e04fb54e927d01b3ff0
   - enabled: 1
     path: Assets/Scenes/Kingdom0_1-2.unity
     guid: ba29cfce84c0a594da91224b6858eacf
+  - enabled: 1
+    path: Assets/Scenes/Kingdom0_1-3.unity
+    guid: 99e4501463531b944a46cb5c1e900330
+  - enabled: 1
+    path: Assets/Scenes/Kingdom0_2-1.unity
+    guid: 01215307ceee86c42a1724649b58e71b
+  - enabled: 1
+    path: Assets/Scenes/Kingdom0_2-2.unity
+    guid: 8247225393ddd8d499ff6c41284e5184
+  - enabled: 1
+    path: Assets/Scenes/Kingdom0_2-3.unity
+    guid: 53337c494e2098a4b83f21aff21c1212
+  - enabled: 1
+    path: Assets/Scenes/Kingdom0_3-1.unity
+    guid: 31a150330759e1345bfca5b98b884dd4
+  - enabled: 1
+    path: Assets/Scenes/Kingdom0_3-2.unity
+    guid: fb165689a5c8ec7459cba5ab415baef3
+  - enabled: 1
+    path: Assets/Scenes/Kingdom0_3-3.unity
+    guid: 0defac675587fd847835b53b530bfec6
+  - enabled: 1
+    path: Assets/Scenes/Kingdom1_1-1.unity
+    guid: 6254e451048b99a41827e09d8e517c0e
+  - enabled: 1
+    path: Assets/Scenes/Kingdom1_1-2.unity
+    guid: 8e17c093c6072d740a1252640eafc9a4
+  - enabled: 1
+    path: Assets/Scenes/Kingdom1_2-1.unity
+    guid: d4efb8e1c736eab4ab0bc50f73f48f3b
+  - enabled: 1
+    path: Assets/Scenes/Kingdom1_2-2.unity
+    guid: 10402344b9555344b811eaeb84175cfd
+  - enabled: 1
+    path: Assets/Scenes/Kingdom1_2-3.unity
+    guid: b837c33d343cc8742888c907051d9d77
+  - enabled: 1
+    path: Assets/Scenes/Kingdom1_3-2.unity
+    guid: 933b6357b0b1f8846bfc94d804c9d0f6
+  - enabled: 1
+    path: Assets/Scenes/Kingdom1_3-3.unity
+    guid: ac34fcc8a0b1f6d4cac7b9c90a1dce1f
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_1-1.unity
+    guid: bd3df1b04a9472947bac08f5827ef77c
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_1-2.unity
+    guid: 1a41ab3b11c79d440bb30c7b1e8b7f7a
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_1-3.unity
+    guid: 24fac52240db41849b863eb7a48d06cc
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_2-1.unity
+    guid: 24d208b50fb2fe54d8da4bb5ecbd1998
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_2-2.unity
+    guid: 039699618ca25ce4fa9ffc4425b19430
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_2-3.unity
+    guid: abb6cae523cb9bf419130b6361c801bc
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_3-1.unity
+    guid: 7c2d7c0b00a7fb445a3fd21c2a137346
+  - enabled: 1
+    path: Assets/Scenes/Kingdom2_3-2.unity
+    guid: c42bdc48844decb4eaf67e8dceecd2b5
+  - enabled: 1
+    path: Assets/Scenes/Kingdom3_1-1.unity
+    guid: daf667b0b0869874ba0328a0a97f9ea7
+  - enabled: 1
+    path: Assets/Scenes/Kingdom3_2-1.unity
+    guid: 4c3ff84399e6a394e8b80584dfb79fc9
+  - enabled: 1
+    path: Assets/Scenes/Kingdom3_2-2.unity
+    guid: 06ad42314e523884e8855b7f1b936705
+  - enabled: 1
+    path: Assets/Scenes/Kingdom3_3-2.unity
+    guid: db9708ae58e2b9a44914653e708f1e9c
+  - enabled: 1
+    path: Assets/Scenes/Kingdom3_3-3.unity
+    guid: 514751c283fcf16428cb42dff233122f
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_1-2.unity
+    guid: db8b26a6145a70247b4b26925b85fd13
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_1-3.unity
+    guid: 7947aad4be6f28146a8133990a9398d1
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_2-1.unity
+    guid: 7ef1e1dead41a6848b8d223dff9a52ab
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_2-2.unity
+    guid: 16c212d45b577144a8b7917198f12ce1
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_2-3.unity
+    guid: 13e25c4b5d106d24bb96419eb17c381f
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_3-1.unity
+    guid: f4fe177f832b92e488546014f275d74b
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_3-2.unity
+    guid: e811f2894f9fd294ba6a9fa6f9848f3f
+  - enabled: 1
+    path: Assets/Scenes/Kingdom4_3-3.unity
+    guid: ce5d7eb0bbb5b9c468b8aceada4ac116
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: b6072a3dd90525745a59b6a29e9bb13d
   m_configObjects: {}
