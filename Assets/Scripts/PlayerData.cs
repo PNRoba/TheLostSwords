@@ -6,22 +6,18 @@ using UnityEngine;
 public class PlayerData
 {
     public float[] position = new float[3];
-    public PlayerController player;
+    // public PlayerController player;
 
     public string[] questNames;
     public bool[] ifComplete;
-
-    public GameManager gameManager;
 
 // Player
     public string charName;
     public int playerLevel = 1;
     public int currentEXP; //experience
-    public int[] expToNextLevel;
 
     public int currentHP; //health points
     public int maxHP = 100;
-    public int[] mpLvlBonus;
 
     public int currentMP; //magic points
     public int maxMP = 30;
@@ -39,11 +35,9 @@ public class PlayerData
     public string charName1;
     public int playerLevel1 = 1;
     public int currentEXP1; //experience
-    public int[] expToNextLevel1;
 
     public int currentHP1; //health points
     public int maxHP1 = 100;
-    public int[] mpLvlBonus1;
 
     public int currentMP1; //magic points
     public int maxMP1 = 30;
@@ -65,7 +59,6 @@ public class PlayerData
 
     public int currentHP2; //health points
     public int maxHP2 = 100;
-    public int[] mpLvlBonus2;
 
     public int currentMP2; //magic points
     public int maxMP2 = 30;
@@ -92,6 +85,6 @@ public class PlayerData
 
     public string[] theItems;
     public int[] numberOfItem;
-    //public int currentMoney;
+    public int currentMoney;
 
 }

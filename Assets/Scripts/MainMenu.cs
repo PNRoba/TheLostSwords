@@ -12,6 +12,8 @@ public class MainMenu : MonoBehaviour
 
     public string loadGameScene;
 
+    public GameObject controls;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,5 +38,12 @@ public class MainMenu : MonoBehaviour
     }
     public void Exit(){
         Application.Quit();
+    }
+
+    public void Controls(){
+        controls.SetActive(true);
+    }
+    public void ExitControls(){
+        controls.SetActive(false);
     }
 }

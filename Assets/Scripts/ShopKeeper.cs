@@ -23,11 +23,13 @@ public class ShopKeeper : MonoBehaviour
         //     Shop.instance.OpenShop();
         // }
 
-        if(canOpen && Input.GetKeyDown(KeyCode.E)){
+        if(canOpen && Input.GetButtonDown("Fire1")){ // Input.GetKeyDown(KeyCode.E)
             if(Shop.instance.shopMenu.activeInHierarchy){
-                Shop.instance.CloseShop();
+                //Shop.instance.CloseShop();
             }else{
+                Debug.Log(itemsForSale[0]);
                 Shop.instance.itemsForSale = itemsForSale;
+                Debug.Log(Shop.instance.itemsForSale[0]);
                 Shop.instance.OpenShop();
             }
         }

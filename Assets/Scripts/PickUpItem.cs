@@ -14,7 +14,7 @@ public class PickUpItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canPickUp && Input.GetButtonDown("Fire1")){
+        if(canPickUp){ //  && Input.GetButtonDown("Fire1")
             
             GameManager.instance.AddItem(GetComponent<Item>().itemName);
             Destroy(gameObject);

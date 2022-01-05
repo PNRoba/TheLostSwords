@@ -6,6 +6,7 @@ public class DialogActivator : MonoBehaviour
 {
     public string[] lines;
     private bool canActivate;
+    public bool isStart;
     public bool isPerson;
 
     public bool shouldActivateQuest;
@@ -21,9 +22,12 @@ public class DialogActivator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canActivate && Input.GetButtonDown("Fire1") && !DialogManager.instance.dialogBox.activeInHierarchy){
+        if(((canActivate && Input.GetButtonDown("Fire1")) || isStart) && !DialogManager.instance.dialogBox.activeInHierarchy && !GameMenu.instance.theMenu.activeInHierarchy){
             DialogManager.instance.ShowDialog(lines, isPerson);
             DialogManager.instance.ShouldActivateQuest(questToMark, markComplete);
+            if(isStart){
+                isStart = false;
+            }
         }
     }
 

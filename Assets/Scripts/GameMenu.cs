@@ -35,6 +35,10 @@ public class GameMenu : MonoBehaviour
 
     public string mainMenuName;
 
+    public GameObject gameOverWindow;
+
+    public Slider HPSlider;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +48,7 @@ public class GameMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && !Shop.instance.shopMenu.activeInHierarchy){
+        if(Input.GetKeyDown(KeyCode.Escape) && !(Shop.instance.shopMenu.activeInHierarchy || DialogManager.instance.dialogBox.activeInHierarchy)){
             if(theMenu.activeInHierarchy){
                 // theMenu.SetActive(false);
                 // GameManager.instance.gameMenuOpen = false;
@@ -56,6 +60,13 @@ public class GameMenu : MonoBehaviour
             }
             AudioManager.instance.PlaySFX(5);
         }
+
+        if(GameManager.instance.playerStats[0].currentHP <=0){
+            PlayerController.instance.canMove = false;
+            gameOverWindow.SetActive(true);
+        }
+        HPSlider.maxValue = GameManager.instance.playerStats[0].maxHP;
+        HPSlider.value = GameManager.instance.playerStats[0].currentHP;
     }
 
     public void UpdateMainStats(){
@@ -96,7 +107,7 @@ public class GameMenu : MonoBehaviour
     }
 
     public void ToggleWindow(int winNum){
-        Debug.Log(winNum);
+        // Debug.Log(winNum);
         UpdateMainStats();
         for(int i = 0; i<windows.Length; i++){
             if(i==winNum){
@@ -137,13 +148,17 @@ public class GameMenu : MonoBehaviour
         statusDef.text = playerStats[selected].defence.ToString();
         if(playerStats[selected].equippedWpn != ""){
             statusWpn.text = playerStats[selected].equippedWpn;
+            statusWpnPow.text = playerStats[selected].wpnPwr.ToString();
         }else{
             statusWpn.text = "None";
+            statusWpnPow.text = "0";
         }
         if(playerStats[selected].equippedArmr != ""){
             statusArmour.text = playerStats[selected].equippedArmr;
+            statusArmourPow.text = playerStats[selected].armrPwr.ToString();
         }else{
             statusArmour.text = "None";
+            statusArmourPow.text = "0";
         }
         statusEXP.text = (playerStats[selected].expToNextLevel[playerStats[selected].playerLevel]-playerStats[selected].currentEXP).ToString();
         statusImage.sprite = playerStats[selected].charImage;

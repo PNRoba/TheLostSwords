@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,8 +20,12 @@ public class PlayerController : MonoBehaviour
     public bool canMove = true;
 
     public bool ifSouthNorthEnterance; // 1 - up, down enterances/exits; 0 left, right enterances/exits
-
+    public bool ifNormalExit;
     public GameManager gameManager;
+
+    public DialogActivator dialogActivator;
+
+    public bool canAttack;
 
     // Start is called before the first frame update
     void Start()
@@ -34,11 +39,14 @@ public class PlayerController : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+        canAttack=true; // remove in done game
     }
 
     // Update is called once per frame
     void Update()
     {
+        this.GetComponent<SpriteRenderer>().color = new Color(this.GetComponent<SpriteRenderer>().color.r, Mathf.MoveTowards(this.GetComponent<SpriteRenderer>().color.g, 1f, 1 * Time.deltaTime), Mathf.MoveTowards(this.GetComponent<SpriteRenderer>().color.b, 1f, 1 * Time.deltaTime), this.GetComponent<SpriteRenderer>().color.a);
+
         if(canMove){
             // Player Movement
             theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal")*playerSpeed, Input.GetAxisRaw("Vertical")*playerSpeed);
@@ -49,7 +57,7 @@ public class PlayerController : MonoBehaviour
         // Player Animation
         myAnim.SetFloat("moveX", theRB.velocity.x);
         myAnim.SetFloat("moveY", theRB.velocity.y);
-        if(Input.GetButtonDown("attack")){
+        if(Input.GetButtonDown("attack") && canAttack){
             if(canMove){
                 StartCoroutine(AttackCo());
             }
@@ -66,6 +74,7 @@ public class PlayerController : MonoBehaviour
             Mathf.Clamp(transform.position.y, bottomLeftLimit.y, topRightLimit.y),
             transform.position.z
         );
+        
     }
 
     public void SetBoundaries(Vector3 bottomLeft, Vector3 topRight){

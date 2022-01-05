@@ -43,19 +43,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36626accab532e4b9778bcf975c38eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charName: Tim
-  playerLevel: 17
-  currentEXP: 2160
+  charName: Player
+  playerLevel: 1
+  currentEXP: 0
   expToNextLevel: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   maxLevel: 100
-  baseEXP: 1000
-  currentHP: 205
-  maxHP: 205
+  baseEXP: 50
+  currentHP: 100
+  maxHP: 100
   mpLvlBonus: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   currentMP: 30
   maxMP: 30
-  strength: 23
-  defence: 20
+  strength: 1
+  defence: 1
   wpnPwr: 0
   armrPwr: 0
   equippedWpn: 
@@ -117,10 +117,6 @@ MonoBehaviour:
   fadingBetweenAreas: 0
   shopOpen: 0
   theItems:
-  - Health Potion
-  - Iron Sword
-  - Leather Armour
-  - Mana Potion
   - 
   - 
   - 
@@ -157,7 +153,11 @@ MonoBehaviour:
   - 
   - 
   - 
-  numberOfItem: 05000000010000000200000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - 
+  - 
+  - 
+  - 
+  numberOfItem: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   referenceItems:
   - {fileID: 4548896224066976532, guid: 9c8e47bd5f4666948b01d78e492fbda7, type: 3}
   - {fileID: 5249822886115178323, guid: fb129b492ce61974b8b6af1f95872593, type: 3}
@@ -174,24 +174,91 @@ MonoBehaviour:
     player: {fileID: 0}
     questNames:
     - 
-    - fight the demon!
-    - enter the cave
-    - quest test
-    - pain
-    - save the ptincess
-    ifComplete: 000000000000
+    - Talk to Thalia
+    - Go to the Temple
+    - Talk to the King
+    - Got Sword
+    - Ask diredtions to Ourania
+    - Go to Ourania
+    - Talk to Blacksmith
+    - Find Iron
+    - Bring iron to Blacksmith
+    - Got Armour
+    - Talk to Shop Owner
+    - Bring ingredients to Shop Owner
+    - Talk to Shop Owner again
+    - Got Health Potion
+    - Save Traveler
+    - Talk to Circe
+    - Go to Mountain of Wings
+    - Find Sword of Courage
+    - Bring Sword of Courage to King
+    - Go to Lithia
+    - Save Village Leader
+    - Village Leader saved
+    - Talk to Village Leader
+    - Got gift from Village Leader
+    - Talk to Villager Mom
+    - Find Villager Moms son
+    - Talk to Village Shop Owner
+    - Found Product 1
+    - Found Product 2
+    - Found Product 3
+    - Found All Product
+    - 'Go to Sylvia: Maze of the forest'
+    - Talk to Philipus
+    - Go to Devils Soup Volcano
+    - Find Sword of Strength
+    - Bring Sword of Strength to King
+    - Go to Thalassia
+    - Save Fisherman
+    - Talk to Fisherman
+    - Talk to Fishermans Wife
+    - Find Origami Kid
+    - Talk to Maiden
+    - Give Origami flower to Maiden
+    - Gave Flower
+    - Maiden Happy
+    - Go to Pink Castle
+    - Talk to Nereida
+    - Find Pink Diamond
+    - Give Pink Diamond to Nereida
+    - Go to Crystals of the past
+    - Find Sword of Memory
+    - Get back to surface
+    - Bring Sword of Memory to King
+    - Go to Orphia
+    - Talk to Lantern Shop Owner
+    - Lantern 1
+    - Lantern 2
+    - Lantern 3
+    - Light up the Lanterns in Town
+    - Talk to Fortune Teller
+    - Go to Dungeon
+    - Save Mole
+    - Talk to Mole
+    - Go to flower field
+    - Talk to Zillah
+    - Deliver a letter to Maiden
+    - Talk to Zillah again
+    - Go to the tunnel
+    - Find Sword of Mystery
+    - Bring Sword of Mystery to King
+    - Insert your own sword
+    - Game Finished
+    ifComplete: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     gameManager: {fileID: 0}
-    charName: Tim
-    playerLevel: 17
-    currentEXP: 2160
+    charName: Player
+    playerLevel: 0
+    currentEXP: 0
     expToNextLevel: 
-    currentHP: 205
-    maxHP: 205
+    currentHP: 100
+    maxHP: 100
     mpLvlBonus: 
     currentMP: 30
     maxMP: 30
-    strength: 23
-    defence: 20
+    strength: 1
+    defence: 1
     wpnPwr: 0
     armrPwr: 0
     equippedWpn: 
@@ -231,10 +298,6 @@ MonoBehaviour:
     ifCharActive2: 0
     currentScene: Kingdom0_1-1
     theItems:
-    - Health Potion
-    - Iron Sword
-    - Leather Armour
-    - Mana Potion
     - 
     - 
     - 
@@ -271,7 +334,11 @@ MonoBehaviour:
     - 
     - 
     - 
-    numberOfItem: 05000000010000000200000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - 
+    - 
+    - 
+    - 
+    numberOfItem: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   player: {fileID: 0}
   file: player.json
 --- !u!114 &1894242823
@@ -288,11 +355,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questMarkerNames:
   - 
-  - fight the demon!
-  - enter the cave
-  - quest test
-  - pain
-  - save the ptincess
+  - Talk to Thalia
+  - Go to the Temple
+  - Talk to the King
+  - Got Sword
+  - Ask diredtions to Ourania
+  - Go to Ourania
+  - Talk to Blacksmith
+  - Find Iron
+  - Bring iron to Blacksmith
+  - Got Armour
+  - Talk to Shop Owner
+  - Bring ingredients to Shop Owner
+  - Talk to Shop Owner again
+  - Got Health Potion
+  - Save Traveler
+  - Talk to Circe
+  - Go to Mountain of Wings
+  - Find Sword of Courage
+  - Bring Sword of Courage to King
+  - Go to Lithia
+  - Save Village Leader
+  - Village Leader saved
+  - Talk to Village Leader
+  - Got gift from Village Leader
+  - Talk to Villager Mom
+  - Find Villager Moms son
+  - Talk to Village Shop Owner
+  - Found Product 1
+  - Found Product 2
+  - Found Product 3
+  - Found All Product
+  - 'Go to Sylvia: Maze of the forest'
+  - Talk to Philipus
+  - Go to Devils Soup Volcano
+  - Find Sword of Strength
+  - Bring Sword of Strength to King
+  - Go to Thalassia
+  - Fisherman
+  - Save Fisherman
+  - Talk to Fisherman
+  - Talk to Fishermans Wife
+  - Find Origami Kid
+  - Talk to Maiden
+  - Give Origami flower to Maiden
+  - Gave Flower
+  - Maiden Happy
+  - Go to Pink Castle
+  - Talk to Nereida
+  - Find Pink Diamond
+  - Give Pink Diamond to Nereida
+  - Go to Crystals of the past
+  - Find Sword of Memory
+  - Get back to surface
+  - Bring Sword of Memory to King
+  - Go to Orphia
+  - Talk to Lantern Shop Owner
+  - Lantern 1
+  - Lantern 2
+  - Lantern 3
+  - Light up the Lanterns in Town
+  - Talk to Fortune Teller
+  - Go to Dungeon
+  - Save Mole
+  - Talk to Mole
+  - Go to flower field
+  - Talk to Zillah
+  - Deliver a letter to Maiden
+  - Talk to Zillah again
+  - Go to the tunnel
+  - Find Sword of Mystery
+  - Bring Sword of Mystery to King
+  - Insert your own sword
+  - Game Finished
   questMarkersComplete: 
   gameManager: {fileID: 326216222779091475}
 --- !u!1 &326216222993890263
@@ -311,7 +446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &326216222993890262
 Transform:
   m_ObjectHideFlags: 0

@@ -14,6 +14,7 @@ public class ExitArea : MonoBehaviour
     public bool loadAfterFade;
 
     public bool ifSouthNorthExit; // 1 - up, down enterances/exits; 0 left, right enterances/exits
+    public bool ifNormalExit;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,7 @@ public class ExitArea : MonoBehaviour
         if(other.tag == "Player"){
 
             PlayerController.instance.ifSouthNorthEnterance = ifSouthNorthExit;
+            PlayerController.instance.ifNormalExit = ifNormalExit;
 
             //SceneManager.LoadScene(areaToLoad);
             loadAfterFade = true;

@@ -17,10 +17,11 @@ public class SimpleEnemy : Enemy
     // Start is called before the first frame update
     void Start()
     {
+        maxhealth = health;
         currentState = EnemyState.idle;
         myRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        target = GameObject.FindWithTag("Player").transform;
+        target = FindObjectOfType<CameraController>().target;
     }
 
     // Update is called once per frame
@@ -30,6 +31,8 @@ public class SimpleEnemy : Enemy
     }
 
     void CheckDistance(){
+        Debug.Log(Vector3.Distance(target.position, transform.position)<= chaseRadius && Vector3.Distance(target.position, transform.position)> attackRadius);
+        Debug.Log(Vector3.Distance(target.position, transform.position));
         if(Vector3.Distance(target.position, transform.position)<= chaseRadius && Vector3.Distance(target.position, transform.position)> attackRadius){
             if(currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger){
                 Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);

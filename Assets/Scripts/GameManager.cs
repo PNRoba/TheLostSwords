@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
+        player = FindObjectOfType<PlayerController>();
+
         data = new PlayerData();
 
         ItemSorter();
@@ -42,12 +44,16 @@ public class GameManager : MonoBehaviour
             PlayerController.instance.canMove = true;
         }
 
-        if(Input.GetKeyDown(KeyCode.J)){ // testing
-            AddItem("Iron Armour");
-            AddItem("blabla");
+        // if(Input.GetKeyDown(KeyCode.J)){ // testing
+        //     AddItem("Iron Armour");
+        //     AddItem("blabla");
 
-            RemoveItem("Health Potion");
-            RemoveItem("Beep Boop");
+        //     RemoveItem("Health Potion");
+        //     RemoveItem("Beep Boop");
+        // }
+
+        if(instance.playerStats[0].currentHP <=0){
+            player.myAnim.SetBool("isDead", true);
         }
     }
 
@@ -294,6 +300,7 @@ public class GameManager : MonoBehaviour
             data.numberOfItem[i] = numberOfItem[i];
         }
         data.currentScene = SceneManager.GetActiveScene().name;
+        data.currentMoney = currentMoney;
     }
 
     public void DataToLoad(){
@@ -378,6 +385,9 @@ public class GameManager : MonoBehaviour
         for(int i=0; i<numberOfItem.Length; i++){
             numberOfItem[i] = data.numberOfItem[i];
         }
+
+        currentMoney = data.currentMoney;
+
         SceneManager.LoadScene(data.currentScene);
     }
 }

@@ -101,10 +101,12 @@ public class Shop : MonoBehaviour
         // itemMoneyDifference.text = "-" + selectedItem.value;
     }
     public void SelectSellItem(Item sellItem){
-        selectedItem = sellItem;
-        sellItemName.text = selectedItem.itemName;
-        sellItemDesc.text = selectedItem.desc;
-        sellItemValue.text = "Value: " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "m";
+        if(sellItem != null){
+            selectedItem = sellItem;
+            sellItemName.text = selectedItem.itemName;
+            sellItemDesc.text = selectedItem.desc;
+            sellItemValue.text = "Value: " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "m";
+        }
         // itemMoneyDifference.text = "-" + selectedItem.value;
     }
     

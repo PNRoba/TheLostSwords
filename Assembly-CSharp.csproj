@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ShopKeeper.cs" />
      <Compile Include="Assets\Scripts\DialogActivator.cs" />
+     <Compile Include="Assets\Scripts\LoadingNewScene.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\FadeUI.cs" />

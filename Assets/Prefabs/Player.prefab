@@ -320,7 +320,6 @@ GameObject:
   - component: {fileID: 7060338749575733255}
   - component: {fileID: 7060338749575733306}
   - component: {fileID: 1466867711}
-  - component: {fileID: 1466867712}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -386,7 +385,7 @@ SpriteRenderer:
   m_SortingLayerID: -1311137823
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3625245266812018506, guid: c6175072c050cbd4baf7cc11d483d995, type: 3}
+  m_Sprite: {fileID: -9066921485836876977, guid: e5e4b8f2f7b532c4da7e7cfcdc676ce5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -415,7 +414,10 @@ MonoBehaviour:
   exitName: 
   canMove: 1
   ifSouthNorthEnterance: 0
+  ifNormalExit: 0
   gameManager: {fileID: 326216222779091475, guid: afe501c2dfa0a3f42890754618ae1ea2, type: 3}
+  dialogActivator: {fileID: 0}
+  canAttack: 0
 --- !u!50 &7060338749575733254
 Rigidbody2D:
   serializedVersion: 4
@@ -434,8 +436,8 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!58 &7060338749575733255
 CircleCollider2D:
@@ -498,15 +500,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8535334, y: 1.4074488}
   m_EdgeRadius: 0
---- !u!114 &1466867712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7060338749575733252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 276d1310a72853d4796f2a5db17b6665, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

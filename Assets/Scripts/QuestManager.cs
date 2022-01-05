@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuestManager : MonoBehaviour
 {
@@ -37,12 +38,12 @@ public class QuestManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Q)){
-            Debug.Log(CheckIfComplete("quest test")); //f
-            MarkQuestComplete("quest test");
-            Debug.Log(CheckIfComplete("quest test")); //t
-            //MarkQuestIncomplete("quest test");
-            //Debug.Log(CheckIfComplete("quest test")); //f
+        if(questMarkersComplete[questMarkersComplete.Length-1]){
+            SceneManager.LoadScene("MainMenu");
+            Destroy(GameManager.instance.gameObject);
+            Destroy(PlayerController.instance.gameObject);
+            Destroy(AudioManager.instance.gameObject);
+            Destroy(gameObject);
         }
     }
 

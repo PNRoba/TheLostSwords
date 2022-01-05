@@ -63,6 +63,7 @@ public class Item : MonoBehaviour
 
             selectedChar.equippedWpn = itemName;
             selectedChar.wpnPwr = wpnStrength;
+            PlayerController.instance.canAttack = true;
         }
         if(isArmour){
             if(selectedChar.equippedArmr != ""){

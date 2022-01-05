@@ -122,4 +122,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: b6072a3dd90525745a59b6a29e9bb13d
+  - enabled: 1
+    path: Assets/Scenes/K022_insideTemple.unity
+    guid: 2272be89764c7684889c5488266f4c49
+  - enabled: 1
+    path: Assets/Scenes/K121_D1.unity
+    guid: 1be5837f230a46b4991869e600f88f0e
+  - enabled: 1
+    path: Assets/Scenes/LoadingNewScene.unity
+    guid: 657a8fa99fbef524ea31045856e50779
+  - enabled: 1
+    path: Assets/Scenes/K212_D1.unity
+    guid: 3f34ac541e257d64fb9b34b232a9cd0a
+  - enabled: 1
+    path: Assets/Scenes/K132_D1.unity
+    guid: f9d39e98a67991c48996f9f773a03320
+  - enabled: 1
+    path: Assets/Scenes/K221_D1.unity
+    guid: e017a1df19a868a449e127510de87543
+  - enabled: 1
+    path: Assets/Scenes/K211_D1.unity
+    guid: 8b5b95538ea5d664db850a0a163a22e6
+  - enabled: 1
+    path: Assets/Scenes/K332_D1.unity
+    guid: ee3240a3ec43cdd41ab4f6991bcff172
+  - enabled: 1
+    path: Assets/Scenes/K333_D1.unity
+    guid: 3f7a81f2edda9584b9aba107d6b20f80
+  - enabled: 1
+    path: Assets/Scenes/K431_D1.unity
+    guid: ae6293b20a73ec44d80561168efdb867
   m_configObjects: {}

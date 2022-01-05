@@ -12,12 +12,16 @@ public class AreaEnterance : MonoBehaviour
         Vector3 p = PlayerController.instance.transform.position;
         if(enteranceName == PlayerController.instance.exitName){
             //PlayerController.instance.transform.position = transform.position;
-            if(PlayerController.instance.ifSouthNorthEnterance){
-                p.y = transform.position.y;
-                PlayerController.instance.transform.position = p;
+            if(!PlayerController.instance.ifNormalExit){
+                if(PlayerController.instance.ifSouthNorthEnterance){
+                    p.y = transform.position.y;
+                    PlayerController.instance.transform.position = p;
+                }else{
+                    p.x = transform.position.x;
+                    PlayerController.instance.transform.position = p;
+                }
             }else{
-                p.x = transform.position.x;
-                PlayerController.instance.transform.position = p;
+                PlayerController.instance.transform.position = transform.position;
             }
         }
 
