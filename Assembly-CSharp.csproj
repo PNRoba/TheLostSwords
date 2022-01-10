@@ -50,7 +50,6 @@
      <Compile Include="Assets\Scripts\GameMenu.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\AreaEnterance.cs" />
-     <Compile Include="Assets\Scripts\PlayerLoader.cs" />
      <Compile Include="Assets\Scripts\QuestObjectActivator.cs" />
      <Compile Include="Assets\Scripts\LoadingScene.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -65,6 +64,7 @@
      <Compile Include="Assets\Scripts\EssentialLoader.cs" />
      <Compile Include="Assets\Scripts\DialogManager.cs" />
      <Compile Include="Assets\Scripts\ItemButton.cs" />
+     <Compile Include="Assets\Scripts\LoadingEndScene.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -6,9 +6,9 @@ public class SimpleEnemy : Enemy
 {
     private Rigidbody2D myRB;
     public Transform target;
-    public float chaseRadius;
-    public float attackRadius;
-    public Transform homePosition;
+    public float chaseRadius; // If target enters, Enemy follows target
+    public float attackRadius; // If target enters, Enemy stops following, because its close enough to hurt the target
+    // public Transform homePosition;
 
     public bool canMove = true;
 
@@ -23,16 +23,16 @@ public class SimpleEnemy : Enemy
         anim = GetComponent<Animator>();
         target = FindObjectOfType<CameraController>().target;
     }
-
-    // Update is called once per frame
+    // Smoother than update (for RB)
     void FixedUpdate()
     {
         CheckDistance();
     }
 
+    // Checks distance between Enemy and target
+    // if its inside chase radius and not inside attack radius, then Enemy
+    // is awake and moving towards the player
     void CheckDistance(){
-        Debug.Log(Vector3.Distance(target.position, transform.position)<= chaseRadius && Vector3.Distance(target.position, transform.position)> attackRadius);
-        Debug.Log(Vector3.Distance(target.position, transform.position));
         if(Vector3.Distance(target.position, transform.position)<= chaseRadius && Vector3.Distance(target.position, transform.position)> attackRadius){
             if(currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger){
                 Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
@@ -47,12 +47,14 @@ public class SimpleEnemy : Enemy
         }
     }
 
+    // Changes animation according to direction
     private void ChangeAnim(Vector2 direction){
         direction = direction.normalized;
         anim.SetFloat("moveX", direction.x);
         anim.SetFloat("moveY", direction.y);
     }
 
+    // Change Enemy state
     private void ChangeState(EnemyState newState){
         if(currentState !=newState){
             currentState = newState;

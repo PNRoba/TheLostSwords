@@ -30,10 +30,4 @@ public class EssentialLoader : MonoBehaviour
             AudioManager.instance = clone;
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -21,19 +21,6 @@ public class Item : MonoBehaviour
     [Header("Weapon/Armour Details")]
     public int wpnStrength;
     public int armourStrength;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     // item menu, select item, use/equip button
     public void Use(int charToUseOn){ 
@@ -58,7 +45,9 @@ public class Item : MonoBehaviour
         }
         if(isWpn){
             if(selectedChar.equippedWpn != ""){
-                GameManager.instance.AddItem(selectedChar.equippedWpn);
+                if(GameManager.instance.CheckIfSpace(selectedChar.equippedWpn)){
+                    GameManager.instance.AddItem(selectedChar.equippedWpn);
+                }
             }
 
             selectedChar.equippedWpn = itemName;

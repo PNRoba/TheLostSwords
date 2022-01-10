@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
-        canAttack=true; // remove in done game
+        // canAttack=true; // remove in done game
     }
 
     // Update is called once per frame
@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
         myAnim.SetFloat("moveY", theRB.velocity.y);
         if(Input.GetButtonDown("attack") && canAttack){
             if(canMove){
+                // Attack animation
                 StartCoroutine(AttackCo());
             }
         }
@@ -68,7 +69,7 @@ public class PlayerController : MonoBehaviour
                 myAnim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
             }
         }
-
+        // Moves Player
         transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, bottomLeftLimit.x, topRightLimit.x),
             Mathf.Clamp(transform.position.y, bottomLeftLimit.y, topRightLimit.y),
@@ -77,6 +78,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    // the map boundaries. Player cant go outside the map
     public void SetBoundaries(Vector3 bottomLeft, Vector3 topRight){
         bottomLeftLimit = bottomLeft + new Vector3(0.6f,0.9f,0f);
         topRightLimit = topRight+ new Vector3(-0.6f,-0.9f,0f);

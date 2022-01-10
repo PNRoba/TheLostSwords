@@ -31,20 +31,15 @@ public class CharacterStats : MonoBehaviour
         expToNextLevel = new int[maxLevel];
         expToNextLevel[1] = baseEXP;
 
+        // To calculate the needed EXP for each level based on the baseEXP
         for(int i=2; i < expToNextLevel.Length; i++){
             //expToNextLevel[i] = expToNextLevel[i-1]+50;
             expToNextLevel[i] = Mathf.FloorToInt(expToNextLevel[i-1]*1.05f);
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // if(Input.GetKey(KeyCode.K)){
-        //     AddExp(500);
-        // }
-    }
-
+    // Adds EXP and determines if the level should be increased with
+    // the parameters according to the level (defence, strength)
     public void AddExp(int expToAdd){
         if(playerLevel<maxLevel){
             currentEXP+=expToAdd;

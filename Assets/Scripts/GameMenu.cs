@@ -7,8 +7,10 @@ using UnityEngine.SceneManagement;
 public class GameMenu : MonoBehaviour
 {
     public GameObject theMenu;
-    public GameObject[] windows;
     private CharacterStats[] playerStats;
+
+    // --- Assigned objects in Unity Inspector ---
+    public GameObject[] windows; // Items, Stats and Controls
     public Text[] nameText, hpText, mpText, lvlText, expText;
     public Slider[] exp;
     public Image[] charImage;
@@ -16,18 +18,19 @@ public class GameMenu : MonoBehaviour
 
     public GameObject[] statusButtons;
 
-    public Text statusName, statusHP, statusMP, statusStr, statusDef, statusWpn, statusWpnPow, statusArmour, statusArmourPow, statusEXP;
+    public Text statusMainName, statusName, statusHP, statusMP, statusStr, statusDef, statusWpn, statusWpnPow, statusArmour, statusArmourPow, statusEXP;
     public Image statusImage;
 
     public ItemButton[] itemButtons;
-    public string selectedItem;
-    public Item activeItem;
-    public Text itemName, itemDesc, useButtonText;
+    // ------------------------------------------
+    public string selectedItem; // Selected item in the inventory name
+    public Item activeItem; // Selected item in the inventory
+    public Text itemName, itemDesc, useButtonText; // Item info
 
     public static GameMenu instance;
 
-    public GameObject charChoiceMenu;
-    public Text[] charChoiceNames;
+    public GameObject charChoiceMenu; // Choose character to use item on
+    public Text[] charChoiceNames; // Character names
 
     public Text moneyText;
 
@@ -37,7 +40,7 @@ public class GameMenu : MonoBehaviour
 
     public GameObject gameOverWindow;
 
-    public Slider HPSlider;
+    public Slider HPSlider; // Players HP Slider
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +51,7 @@ public class GameMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Opens (And closes) in game menu
         if(Input.GetKeyDown(KeyCode.Escape) && !(Shop.instance.shopMenu.activeInHierarchy || DialogManager.instance.dialogBox.activeInHierarchy)){
             if(theMenu.activeInHierarchy){
                 // theMenu.SetActive(false);
@@ -61,6 +65,7 @@ public class GameMenu : MonoBehaviour
             AudioManager.instance.PlaySFX(5);
         }
 
+        // Checks if HP is less than or equal zero to open "game over" window
         if(GameManager.instance.playerStats[0].currentHP <=0){
             PlayerController.instance.canMove = false;
             gameOverWindow.SetActive(true);
@@ -69,6 +74,7 @@ public class GameMenu : MonoBehaviour
         HPSlider.value = GameManager.instance.playerStats[0].currentHP;
     }
 
+    // Updates Player stats
     public void UpdateMainStats(){
         playerStats = GameManager.instance.playerStats;
 
@@ -106,6 +112,8 @@ public class GameMenu : MonoBehaviour
         moneyText.text = GameManager.instance.currentMoney.ToString() + "m"; // m for money for now
     }
 
+    // Used to close any open windows before opening another one in in-game menu
+    // Items, Stats, Controls
     public void ToggleWindow(int winNum){
         // Debug.Log(winNum);
         UpdateMainStats();
@@ -119,6 +127,7 @@ public class GameMenu : MonoBehaviour
         charChoiceMenu.SetActive(false);
     }
 
+    // Close Menu button
     public void CloseMenu(){
         for(int i = 0; i<windows.Length; i++){
             windows[i].SetActive(false);
@@ -130,6 +139,7 @@ public class GameMenu : MonoBehaviour
         charChoiceMenu.SetActive(false);
     }
 
+    // Open Status button
     public void OpenStatus(){
         UpdateMainStats();
         CharStats(0);
@@ -140,7 +150,9 @@ public class GameMenu : MonoBehaviour
         }
     }
 
+    // Simple character stats, when first opening in-game menu
     public void CharStats(int selected){
+        statusMainName.text = playerStats[selected].charName;
         statusName.text = playerStats[selected].charName;
         statusHP.text = "" + playerStats[selected].currentHP + "/" + playerStats[selected].maxHP;
         statusMP.text = "" + playerStats[selected].currentMP + "/" + playerStats[selected].maxMP;
@@ -164,6 +176,7 @@ public class GameMenu : MonoBehaviour
         statusImage.sprite = playerStats[selected].charImage;
     }
 
+    // Update the items in players inventory
     public void ShowItems(){
         GameManager.instance.ItemSorter();
         for(int i = 0; i<itemButtons.Length; i++){
@@ -180,6 +193,7 @@ public class GameMenu : MonoBehaviour
         }
     }
 
+    // When selected an Item in inventory
     public void SelectItem(Item newItem){
         activeItem = newItem;
         if(activeItem.isItem){
@@ -193,6 +207,7 @@ public class GameMenu : MonoBehaviour
         itemDesc.text = activeItem.desc;
     }
 
+    // Remove Item from inventory
     public void DiscardItem(){
         if(activeItem != null){
             GameManager.instance.RemoveItem(activeItem.name);
@@ -218,14 +233,17 @@ public class GameMenu : MonoBehaviour
         CloseChooseChar();
     }
 
+    // Activates Save function with Save button
     public void SaveButton(){
         gameManager.Save();
     }
 
+    // Play button sound in inventory
     public void PlayButtonSound(){
         AudioManager.instance.PlaySFX(4);
     }
 
+    // Quit game button
     public void QuitGame(){
         SceneManager.LoadScene(mainMenuName);
         Destroy(GameManager.instance.gameObject);

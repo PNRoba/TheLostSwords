@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
 
     public float moveSpeed;
 
-    public RectTransform healthbar;
+    public RectTransform healthbar; // red health bar above Enemy
 
     void Start()
     {
@@ -36,6 +36,7 @@ public class Enemy : MonoBehaviour
         StartCoroutine(KnockCo(myRB, knockTime));
     }
 
+    // If Enemy is hit, their velocity is turned to zero after "knocktime" time
     private IEnumerator KnockCo(Rigidbody2D myRB, float knockTime){
         if(myRB != null){
             yield return new WaitForSeconds(knockTime);

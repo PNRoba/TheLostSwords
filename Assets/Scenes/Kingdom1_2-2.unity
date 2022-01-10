@@ -18232,6 +18232,7 @@ MonoBehaviour:
   - n-Blacksmith
   - Ayy! Nice, you found the coal!
   - Here is your armour!
+  - Look in "Items" and equip it so the enemies deal less damage to you.
   isStart: 0
   isPerson: 1
   shouldActivateQuest: 0

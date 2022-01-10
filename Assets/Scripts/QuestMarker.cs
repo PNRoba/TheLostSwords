@@ -6,17 +6,13 @@ public class QuestMarker : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public string questToMark;
-    public bool markComplete;
+    public string questToMark; // Manually set. Name of quest to mark
+    public bool markComplete; // Manually set. Bool given to Quest Completion Status
 
-    public bool markOnEnter;
+    public bool markOnEnter; // Manually set. true = marks on enter, false = marks on click, if in collider.
     public bool canMark;
 
-    public bool deactiateOnMarking;
-    void Start()
-    {
-        
-    }
+    public bool deactiateOnMarking; // Manually set. true = deactivates object.
 
     // Update is called once per frame
     void Update()

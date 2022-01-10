@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class Knockback : MonoBehaviour
 {
-    public float thrust;
-    public float knockTime;
+    public float thrust; // hit strength
+    public float knockTime; // how far is pushed
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -20,16 +15,20 @@ public class Knockback : MonoBehaviour
         this.transform.parent.gameObject.GetComponent<SpriteRenderer>().color = new Color(this.transform.parent.gameObject.GetComponent<SpriteRenderer>().color.r, Mathf.MoveTowards(this.transform.parent.gameObject.GetComponent<SpriteRenderer>().color.g, 1f, 1 * Time.deltaTime), Mathf.MoveTowards(this.transform.parent.gameObject.GetComponent<SpriteRenderer>().color.b, 1f, 1 * Time.deltaTime), this.transform.parent.gameObject.GetComponent<SpriteRenderer>().color.a);
     }
 
+    // If object enters this.objects hit collider
     private void OnTriggerEnter2D(Collider2D other){
+        // Pot smashes if its broken by a Player or Enemy
         if(other.gameObject.CompareTag("breakable") && !this.gameObject.CompareTag("Player")){
             other.GetComponent<Pot>().Smash();
         }
+        
         if((other.gameObject.CompareTag("Enemy") && !this.gameObject.CompareTag("Enemy")) || other.gameObject.CompareTag("Player")){
             Rigidbody2D hit = other.gameObject.GetComponent<Rigidbody2D>();
             if(hit != null){
                 Vector2 difference = hit.transform.position - transform.position;
                 difference = difference.normalized * thrust;
                 hit.AddForce(difference, ForceMode2D.Impulse);
+                // If the object thats hit is the Enemy
                 if(other.gameObject.CompareTag("Enemy")){
                     hit.GetComponent<Enemy>().currentState = EnemyState.stagger;
                     other.GetComponent<Enemy>().Knock(hit, knockTime);
@@ -38,11 +37,12 @@ public class Knockback : MonoBehaviour
                     other.GetComponent<Enemy>().healthbar.sizeDelta = new Vector2(other.GetComponent<Enemy>().health*Mathf.Ceil(200/other.GetComponent<Enemy>().maxhealth),other.GetComponent<Enemy>().healthbar.sizeDelta.y);
                     if(other.GetComponent<Enemy>().health<=0){
                         other.GetComponent<Enemy>().gameObject.SetActive(false);
-                        GameManager.instance.currentMoney += Mathf.FloorToInt(other.GetComponent<Enemy>().maxhealth/2);
-                        GameManager.instance.playerStats[0].AddExp(other.GetComponent<Enemy>().maxhealth);
+                        GameManager.instance.currentMoney += Mathf.FloorToInt(other.GetComponent<Enemy>().baseAttack/2);
+                        GameManager.instance.playerStats[0].AddExp(other.GetComponent<Enemy>().baseAttack);
                     }
                     other.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
                 }
+                // If the object thats hit is the Player
                 if(other.gameObject.CompareTag("Player")){
                     other.GetComponent<PlayerController>().Knock(knockTime);
                     if(GameManager.instance.playerStats[0].equippedArmr != ""){
@@ -55,8 +55,6 @@ public class Knockback : MonoBehaviour
                         other.GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
                     }
                 }
-                
-                //Debug.Log(other.GetComponent<SpriteRenderer>().color.g);
             }
         }
     }

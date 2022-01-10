@@ -70,7 +70,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1311137823
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: -5
   m_Sprite: {fileID: 8033092973025764044, guid: 3467eaac66f95ad4e84f58b705470e72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -99,10 +99,10 @@ MonoBehaviour:
   isWpn: 0
   isArmour: 0
   itemName: Health Potion
-  desc: Restores 100 HP
+  desc: Restores 25 HP
   value: 5
   itemSprite: {fileID: 8033092973025764044, guid: 3467eaac66f95ad4e84f58b705470e72, type: 3}
-  amountToChange: 100
+  amountToChange: 25
   affectHP: 1
   affectMP: 0
   affectStr: 0

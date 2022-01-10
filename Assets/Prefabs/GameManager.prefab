@@ -168,10 +168,9 @@ MonoBehaviour:
   currentMoney: 100
   data:
     position:
-    - -0.4299907
-    - -8.019509
+    - -10.911008
+    - -1.133472
     - 0
-    player: {fileID: 0}
     questNames:
     - 
     - Talk to Thalia
@@ -211,6 +210,7 @@ MonoBehaviour:
     - Find Sword of Strength
     - Bring Sword of Strength to King
     - Go to Thalassia
+    - Fisherman
     - Save Fisherman
     - Talk to Fisherman
     - Talk to Fishermans Wife
@@ -246,15 +246,12 @@ MonoBehaviour:
     - Bring Sword of Mystery to King
     - Insert your own sword
     - Game Finished
-    ifComplete: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    gameManager: {fileID: 0}
+    ifComplete: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100
     charName: Player
-    playerLevel: 0
+    playerLevel: 1
     currentEXP: 0
-    expToNextLevel: 
     currentHP: 100
     maxHP: 100
-    mpLvlBonus: 
     currentMP: 30
     maxMP: 30
     strength: 1
@@ -264,39 +261,7 @@ MonoBehaviour:
     equippedWpn: 
     equippedArmr: 
     ifCharActive: 0
-    charName1: King
-    playerLevel1: 18
-    currentEXP1: 2022
-    expToNextLevel1: 
-    currentHP1: 300
-    maxHP1: 300
-    mpLvlBonus1: 
-    currentMP1: 25
-    maxMP1: 25
-    strength1: 30
-    defence1: 23
-    wpnPwr1: 0
-    armrPwr1: 0
-    equippedWpn1: 
-    equippedArmr1: 
-    ifCharActive1: 0
-    charName2: King
-    playerLevel2: 3
-    currentEXP2: 234
-    expToNextLevel2: 
-    currentHP2: 0
-    maxHP2: 150
-    mpLvlBonus2: 
-    currentMP2: 0
-    maxMP2: 25
-    strength2: 22
-    defence2: 16
-    wpnPwr2: 0
-    armrPwr2: 0
-    equippedWpn2: 
-    equippedArmr2: 
-    ifCharActive2: 0
-    currentScene: Kingdom0_1-1
+    currentScene: Kingdom0_3-3
     theItems:
     - 
     - 
@@ -339,6 +304,7 @@ MonoBehaviour:
     - 
     - 
     numberOfItem: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    currentMoney: 100
   player: {fileID: 0}
   file: player.json
 --- !u!114 &1894242823

@@ -23,12 +23,15 @@ public class FadeUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Gradual fading to black, if true
         if(fadeToBlack){
             fadeImg.color = new Color(fadeImg.color.r, fadeImg.color.g, fadeImg.color.b, Mathf.MoveTowards(fadeImg.color.a, 1f, fadeSpeed * Time.deltaTime));
             if(fadeImg.color.a == 1f){
                 fadeToBlack=false;
             }
         }
+
+        // Gradual fading from black, if true
         if(fadeToClear){
             fadeImg.color = new Color(fadeImg.color.r, fadeImg.color.g, fadeImg.color.b, Mathf.MoveTowards(fadeImg.color.a, 0f, fadeSpeed * Time.deltaTime));
             if(fadeImg.color.a == 0f){
@@ -37,6 +40,7 @@ public class FadeUI : MonoBehaviour
         }
     }
 
+    // Assigns the values used in Update(). Used to activate from other scripts
     public void FadeBlack(){
         fadeToBlack=true;
         fadeToClear=false;

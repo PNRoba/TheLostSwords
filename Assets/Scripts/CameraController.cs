@@ -5,15 +5,21 @@ using UnityEngine.Tilemaps;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform target;
+    public Transform target; // camera follows this target object
 
-    public Tilemap map;
+    public Tilemap map; // camera inside this map
+    
+    // Following values to calculate how far should the camera go
+    // not to leave the bounds of the map
     private Vector3 bottomLeftLimit;
     private Vector3 topRightLimit;
 
     private float halfHeight;
     private float halfWidth;
 
+    // Based on the following values it is determined, which music
+    // to play when in the scene
+    
     public int musicToPlay;
     private bool musicStarted;
 
@@ -45,6 +51,8 @@ public class CameraController : MonoBehaviour
             transform.position.z
         );
 
+        // If its the same song "musicStarted" is used to not stop the
+        // song that's already playing
         if(!musicStarted){
             musicStarted = true;
             AudioManager.instance.PlayBGS(musicToPlay);

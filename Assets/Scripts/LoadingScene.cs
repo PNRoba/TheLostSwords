@@ -8,15 +8,10 @@ public class LoadingScene : MonoBehaviour
     public float waitToLoad;
     public GameManager gameManager;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
+        // Loads Main menu after some time
         if(waitToLoad>0){
             waitToLoad -= Time.deltaTime;
             if(waitToLoad <=0){

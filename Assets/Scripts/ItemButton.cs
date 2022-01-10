@@ -8,20 +8,9 @@ public class ItemButton : MonoBehaviour
     public Image buttonImage;
     public Text amountText;
     public int buttonValue;
-    
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // If selected item in the inventory or Shop
+    // Gets and displays item details
     public void Press(){
         if(GameMenu.instance.theMenu.activeInHierarchy){
             if(GameManager.instance.theItems[buttonValue] != ""){

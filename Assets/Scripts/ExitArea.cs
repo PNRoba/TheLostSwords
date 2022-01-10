@@ -11,7 +11,7 @@ public class ExitArea : MonoBehaviour
     public AreaEnterance theEnterance;
 
     public float waitToLoad = 1f;
-    public bool loadAfterFade;
+    public bool loadAfterFade; //
 
     public bool ifSouthNorthExit; // 1 - up, down enterances/exits; 0 left, right enterances/exits
     public bool ifNormalExit;
@@ -25,6 +25,7 @@ public class ExitArea : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Waits until faded and then loads new scene
         if(loadAfterFade){
             waitToLoad-=Time.deltaTime;
             if(waitToLoad<=0){
@@ -34,6 +35,7 @@ public class ExitArea : MonoBehaviour
         }
     }
 
+    // When enters, starts fading. Player can't move.
     private void OnTriggerEnter2D(Collider2D other){
         if(other.tag == "Player"){
 

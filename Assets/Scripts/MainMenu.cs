@@ -17,6 +17,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // If file exists, then game can be continued from last saved progress
         if(gameManager.FileExists()){
             continueButton.SetActive(true);
         }else{
@@ -24,12 +25,7 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // Buttons in Main Menu
     public void Continue(){
         SceneManager.LoadScene(loadGameScene);
     }

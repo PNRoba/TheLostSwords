@@ -35,18 +35,7 @@ public class QuestManager : MonoBehaviour
         // }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(questMarkersComplete[questMarkersComplete.Length-1]){
-            SceneManager.LoadScene("MainMenu");
-            Destroy(GameManager.instance.gameObject);
-            Destroy(PlayerController.instance.gameObject);
-            Destroy(AudioManager.instance.gameObject);
-            Destroy(gameObject);
-        }
-    }
-
+    // Finds quest number
     public int GetQuestNumber(string questToFind){
         for(int i=0; i<questMarkerNames.Length; i++){
             if(questMarkerNames[i] == questToFind){
@@ -57,6 +46,7 @@ public class QuestManager : MonoBehaviour
         return 0;
     }
 
+    // Check if quest is complete
     public bool CheckIfComplete(string questToCheck){
         if(GetQuestNumber(questToCheck) != 0){
             return questMarkersComplete[GetQuestNumber(questToCheck)];
@@ -64,10 +54,13 @@ public class QuestManager : MonoBehaviour
         return false;
     }
 
+    // Mark Quest Complete
     public void MarkQuestComplete(string questToMark){
         questMarkersComplete[GetQuestNumber(questToMark)] = true;
         UpdateLocalQuestObjects();
     }
+
+    // Mark Quest Incomplete
     public void MarkQuestIncomplete(string questToMark){
         questMarkersComplete[GetQuestNumber(questToMark)] = false;
         UpdateLocalQuestObjects();

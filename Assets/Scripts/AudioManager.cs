@@ -17,18 +17,14 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // Play sound effect
     public void PlaySFX(int soundToPlay){
         if(soundToPlay < sfx.Length){
             sfx[soundToPlay].Play();
         }
     }
 
+    // Play background sound
     public void PlayBGS(int musicToPlay){
         if(musicToPlay >= bgm.Length){
             StopMusic();
@@ -40,6 +36,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    // Stop Music
     public void StopMusic(){
         for(int i=0; i<bgm.Length; i++){
             bgm[i].Stop();

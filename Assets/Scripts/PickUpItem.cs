@@ -2,22 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// Picking up script for items
 public class PickUpItem : MonoBehaviour
 {
     private bool canPickUp;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         if(canPickUp){ //  && Input.GetButtonDown("Fire1")
-            
-            GameManager.instance.AddItem(GetComponent<Item>().itemName);
-            Destroy(gameObject);
+            if(GameManager.instance.CheckIfSpace(GetComponent<Item>().itemName)){
+                GameManager.instance.AddItem(GetComponent<Item>().itemName);
+                Destroy(gameObject);
+            }
         }
     }
 

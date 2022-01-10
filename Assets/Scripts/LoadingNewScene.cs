@@ -12,16 +12,19 @@ public class LoadingNewScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        FadeUI.instance.FadeBlack();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Loads first scene after some time
         if(!DialogManager.instance.dialogBox.activeInHierarchy){
             if(waitToLoad>0){
                 waitToLoad -= Time.deltaTime;
                 if(waitToLoad <=0){
+                    FadeUI.instance.ClearFade();
+                    GameMenu.instance.HPSlider.gameObject.SetActive(true);
                     SceneManager.LoadScene("Kingdom0_3-3");
                 }
             }

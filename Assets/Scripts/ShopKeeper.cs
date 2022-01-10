@@ -27,9 +27,7 @@ public class ShopKeeper : MonoBehaviour
             if(Shop.instance.shopMenu.activeInHierarchy){
                 //Shop.instance.CloseShop();
             }else{
-                Debug.Log(itemsForSale[0]);
                 Shop.instance.itemsForSale = itemsForSale;
-                Debug.Log(Shop.instance.itemsForSale[0]);
                 Shop.instance.OpenShop();
             }
         }

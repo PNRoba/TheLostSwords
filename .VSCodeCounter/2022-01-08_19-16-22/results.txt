@@ -1,0 +1,58 @@
+Date : 2022-01-08 19:16:22
+Directory : c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts
+Total : 32 files,  1613 codes, 132 comments, 364 blanks, all 2109 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C#       |         30 |      1,603 |        132 |        364 |      2,099 |
+| JSON     |          2 |         10 |          0 |          0 |         10 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                     | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                        |         32 |      1,613 |        132 |        364 |      2,109 |
+| .vs                                                                                                      |          2 |         10 |          0 |          0 |         10 |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                 | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\.vs\ProjectSettings.json  | JSON     |          3 |          0 |          0 |          3 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\.vs\VSWorkspaceState.json | JSON     |          7 |          0 |          0 |          7 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\AreaEnterance.cs          | C#       |         26 |          2 |          4 |         32 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\AudioManager.cs           | C#       |         34 |          4 |          8 |         46 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\CameraController.cs       | C#       |         37 |         11 |         14 |         62 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\CharacterStats.cs         | C#       |         53 |          6 |         10 |         69 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\DialogActivator.cs        | C#       |         36 |          5 |          8 |         49 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\DialogManager.cs          | C#       |         65 |          8 |         19 |         92 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Enemy.cs                  | C#       |         38 |          1 |          9 |         48 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\EssentialLoader.cs        | C#       |         27 |          1 |          6 |         34 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ExitArea.cs               | C#       |         38 |          4 |         13 |         55 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\FadeUI.cs                 | C#       |         40 |          2 |          8 |         50 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\GameManager.cs            | C#       |        272 |         11 |         50 |        333 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\GameMenu.cs               | C#       |        186 |         12 |         40 |        238 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Item.cs                   | C#       |         65 |          3 |         14 |         82 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ItemButton.cs             | C#       |         31 |          2 |          8 |         41 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Knockback.cs              | C#       |         51 |          6 |          7 |         64 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\LoadingEndScene.cs        | C#       |         26 |          2 |          3 |         31 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\LoadingNewScene.cs        | C#       |         26 |          2 |          5 |         33 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\LoadingScene.cs           | C#       |         22 |          2 |          5 |         29 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\MainMenu.cs               | C#       |         38 |          2 |         10 |         50 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PickUpItem.cs             | C#       |         29 |          2 |          6 |         37 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerController.cs       | C#       |         77 |          5 |         20 |        102 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerData.cs             | C#       |         28 |          1 |         10 |         39 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\PlayerLoader.cs           | C#       |         16 |          2 |          4 |         22 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Pot.cs                    | C#       |         32 |          2 |          7 |         41 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestManager.cs           | C#       |         50 |         16 |         13 |         79 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestMarker.cs            | C#       |         43 |          2 |         10 |         55 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\QuestObjectActivator.cs   | C#       |         25 |          2 |          8 |         35 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\Shop.cs                   | C#       |        111 |          5 |         26 |        142 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\ShopKeeper.cs             | C#       |         33 |          7 |          9 |         49 |
+| c:\Users\mazap\Desktop\kvalifikācijas darbs\spēle\TheLostSwords\Assets\Scripts\SimpleEnemy.cs            | C#       |         48 |          2 |         10 |         60 |
+| Total                                                                                                    |          |      1,613 |        132 |        364 |      2,109 |
++----------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

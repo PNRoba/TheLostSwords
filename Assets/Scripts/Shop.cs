@@ -30,13 +30,7 @@ public class Shop : MonoBehaviour
     {
         instance = this;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    
     public void OpenShop(){
         shopMenu.SetActive(true);
         OpenBuyMenu();
@@ -94,6 +88,8 @@ public class Shop : MonoBehaviour
     }
 
     public void SelectBuyItem(Item buyItem){
+        buyItemValue.text = "Value: ";
+        buyItemValue.color = new Color(1,1,1,1);
         selectedItem = buyItem;
         buyItemName.text = selectedItem.itemName;
         buyItemDesc.text = selectedItem.desc;
@@ -101,6 +97,8 @@ public class Shop : MonoBehaviour
         // itemMoneyDifference.text = "-" + selectedItem.value;
     }
     public void SelectSellItem(Item sellItem){
+        sellItemValue.text = "Value: ";
+        sellItemValue.color = new Color(1,1,1,1);
         if(sellItem != null){
             selectedItem = sellItem;
             sellItemName.text = selectedItem.itemName;
@@ -114,7 +112,7 @@ public class Shop : MonoBehaviour
 
     public void BuyItem(){
         if(selectedItem != null){
-            if(GameManager.instance.currentMoney >=selectedItem.value){
+            if(GameManager.instance.currentMoney >=selectedItem.value && GameManager.instance.CheckIfSpace(selectedItem.itemName)){
             GameManager.instance.currentMoney -= selectedItem.value;
 
             GameManager.instance.AddItem(selectedItem.itemName);
@@ -124,11 +122,14 @@ public class Shop : MonoBehaviour
     }
     public void SellItem(){
         if(selectedItem != null){
-            GameManager.instance.currentMoney += Mathf.FloorToInt(selectedItem.value * .5f);
-
-            GameManager.instance.RemoveItem(selectedItem.itemName);
+            if(GameManager.instance.RemoveItem(selectedItem.itemName)){
+                GameManager.instance.currentMoney += Mathf.FloorToInt(selectedItem.value * .5f);
+                moneyText.text = GameManager.instance.currentMoney.ToString() + "m";
+            }else{
+                sellItemValue.text = "Not enough " + selectedItem.itemName + "!";
+                sellItemValue.color = new Color(1,0,0,1);
+            }
         }
-        moneyText.text = GameManager.instance.currentMoney.ToString() + "m";
         showSellItems();
     }
 }

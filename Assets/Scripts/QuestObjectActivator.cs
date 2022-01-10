@@ -19,6 +19,7 @@ public class QuestObjectActivator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // First check to activate/deactivate objects according to quest status
         if(!initialCheckDone){
             initialCheckDone = true;
             CheckCompletion();

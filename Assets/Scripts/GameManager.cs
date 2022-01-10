@@ -7,16 +7,16 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public CharacterStats[] playerStats;
-    public bool gameMenuOpen, dialogActive, fadingBetweenAreas, shopOpen;
+    public CharacterStats[] playerStats; // Player information
+    public bool gameMenuOpen, dialogActive, fadingBetweenAreas, shopOpen; // All displays, that are true, if open
 
-    public string[] theItems;
-    public int[] numberOfItem;
+    public string[] theItems; // Player inventory (Items)
+    public int[] numberOfItem; // Player inventory (Amounts of items)
     public Item[] referenceItems; // all existing items
 
     public int currentMoney;
 
-    public PlayerData data;
+    public PlayerData data; // Object used for saving
 
     public PlayerController player;
     public string file = "player.json";
@@ -38,25 +38,21 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // If any display is open, Player cant move
         if(gameMenuOpen || dialogActive || fadingBetweenAreas || shopOpen){
             PlayerController.instance.canMove = false;
         }else{
             PlayerController.instance.canMove = true;
         }
 
-        // if(Input.GetKeyDown(KeyCode.J)){ // testing
-        //     AddItem("Iron Armour");
-        //     AddItem("blabla");
-
-        //     RemoveItem("Health Potion");
-        //     RemoveItem("Beep Boop");
-        // }
-
+        // Checks if Players health is less than or equal to 0
+        // if yes, Player death animation is played
         if(instance.playerStats[0].currentHP <=0){
             player.myAnim.SetBool("isDead", true);
         }
     }
 
+    // Returns Item from the Item name
     public Item GetItemDetails(string itemToGet){
         for(int i=0; i<referenceItems.Length; i++){
             if(referenceItems[i].itemName == itemToGet){
@@ -66,6 +62,8 @@ public class GameManager : MonoBehaviour
         return null;
     }
 
+    // Sorts items to be in top left part of the inventory, starting
+    // with front row
     public void ItemSorter(){
 
         bool itemAfterSpace = true;
@@ -89,6 +87,24 @@ public class GameManager : MonoBehaviour
         // looks if there is space after item
     }
 
+    // Checks if there is a free space in the inventory
+    public bool CheckIfSpace(string itemToAdd){
+        int newItemPosition = 0;
+        bool isSpace = false;
+
+        for(int i=0; i<theItems.Length; i++){
+            if(theItems[i] == "" || theItems[i] == itemToAdd){
+                newItemPosition = i;
+                i = theItems.Length;
+                isSpace = true;
+                return isSpace;
+            }
+        }
+
+        return isSpace;
+    }
+
+    // Adds item in the inventory
     public void AddItem(string itemToAdd){
         int newItemPosition = 0;
         bool isSpace = false;
@@ -119,7 +135,8 @@ public class GameManager : MonoBehaviour
         GameMenu.instance.ShowItems();
     }
 
-    public void RemoveItem(string itemToRemove){
+    // Removes item from the inventory
+    public bool RemoveItem(string itemToRemove){
         bool foundItem = false;
         int itemPosition = 0;
 
@@ -137,17 +154,21 @@ public class GameManager : MonoBehaviour
                 theItems[itemPosition] = "";
             }
             GameMenu.instance.ShowItems();
+            return true;
         }else{
             Debug.LogError("Couldn't find " + itemToRemove + "!");
+            return false;
         }
     }
 
+    // Saves data
     public void Save(){
         DataToSave();
         string json = JsonUtility.ToJson(data);
         WriteToFile(file, json);
     }
 
+    // Loads data
     public void Load(){
         if(File.Exists(GetFilePath(file))){
             data = new PlayerData();
@@ -163,6 +184,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // Writes given json to named file
     private void WriteToFile(string filename, string json){
         string path = GetFilePath(filename);
         FileStream filestream = new FileStream(path, FileMode.Create);
@@ -172,6 +194,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // reads json from named file
     private string ReadFromFile(string filename){
         string path = GetFilePath(filename);
         if(File.Exists(path)){
@@ -186,10 +209,12 @@ public class GameManager : MonoBehaviour
         return "";
     }
 
+    // Gets file path for saving the file
     private string GetFilePath(string filename){
         return Application.persistentDataPath + "/" + filename;
     }
 
+    // Check if file exists
     public bool FileExists(){
         if(File.Exists(GetFilePath(file))){
             return true;
@@ -198,6 +223,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // All the data that needs to be saved
     public void DataToSave(){
         player = PlayerController.instance;
         data.position[0] = player.transform.position.x;
@@ -251,46 +277,6 @@ public class GameManager : MonoBehaviour
         data.equippedWpn = playerStats[0].equippedWpn;
         data.equippedArmr = playerStats[0].equippedArmr;
 
-        Debug.Log(playerStats[1].gameObject.activeInHierarchy);
-        if(playerStats[1].gameObject.activeInHierarchy){
-                data.ifCharActive1 = true;
-            }else{
-                data.ifCharActive1 = false;
-            }
-        data.charName1 = playerStats[1].charName;
-        data.playerLevel1 = playerStats[1].playerLevel;
-        data.currentEXP1 = playerStats[1].currentEXP;
-        data.currentHP1 = playerStats[1].currentHP;
-        data.maxHP1 = playerStats[1].maxHP;
-        data.currentMP1 = playerStats[1].currentMP;
-        data.maxMP1 = playerStats[1].maxMP;
-        data.strength1 = playerStats[1].strength;
-        data.defence1 = playerStats[1].defence;
-        data.wpnPwr1 = playerStats[1].wpnPwr;
-        data.armrPwr1 = playerStats[1].armrPwr;
-        data.equippedWpn1 = playerStats[1].equippedWpn;
-        data.equippedArmr1 = playerStats[1].equippedArmr;
-
-        Debug.Log(playerStats[2].gameObject.activeInHierarchy);
-        if(playerStats[2].gameObject.activeInHierarchy){
-                data.ifCharActive2 = true;
-            }else{
-                data.ifCharActive2 = false;
-            }
-        data.charName2 = playerStats[2].charName;
-        data.playerLevel2 = playerStats[2].playerLevel;
-        data.currentEXP2 = playerStats[2].currentEXP;
-        data.currentHP2 = playerStats[2].currentHP;
-        data.maxHP2 = playerStats[2].maxHP;
-        data.currentMP2 = playerStats[2].currentMP;
-        data.maxMP2 = playerStats[2].maxMP;
-        data.strength2 = playerStats[2].strength;
-        data.defence2 = playerStats[2].defence;
-        data.wpnPwr2 = playerStats[2].wpnPwr;
-        data.armrPwr2 = playerStats[2].armrPwr;
-        data.equippedWpn2 = playerStats[2].equippedWpn;
-        data.equippedArmr2 = playerStats[2].equippedArmr;
-
         data.theItems = new string[theItems.Length];
         for(int i=0; i<theItems.Length; i++){
             data.theItems[i] = theItems[i];
@@ -303,6 +289,7 @@ public class GameManager : MonoBehaviour
         data.currentMoney = currentMoney;
     }
 
+    // All the data that needs to be loaded
     public void DataToLoad(){
         player = PlayerController.instance;
         player.transform.position = new Vector3(
@@ -338,44 +325,6 @@ public class GameManager : MonoBehaviour
         playerStats[0].armrPwr = data.armrPwr;
         playerStats[0].equippedWpn = data.equippedWpn;
         playerStats[0].equippedArmr = data.equippedArmr;
-
-        if(data.ifCharActive1){
-                playerStats[1].gameObject.SetActive(true);
-            }else{
-                playerStats[1].gameObject.SetActive(false);
-            }
-        playerStats[1].charName = data.charName1;
-        playerStats[1].playerLevel = data.playerLevel1;
-        playerStats[1].currentEXP = data.currentEXP1;
-        playerStats[1].currentHP = data.currentHP1;
-        playerStats[1].maxHP = data.maxHP1;
-        playerStats[1].currentMP = data.currentMP1;
-        playerStats[1].maxMP = data.maxMP1;
-        playerStats[1].strength = data.strength1;
-        playerStats[1].defence = data.defence1;
-        playerStats[1].wpnPwr = data.wpnPwr1;
-        playerStats[1].armrPwr = data.armrPwr1;
-        playerStats[1].equippedWpn = data.equippedWpn1;
-        playerStats[1].equippedArmr = data.equippedArmr1;
-
-        if(data.ifCharActive2){
-                playerStats[2].gameObject.SetActive(true);
-            }else{
-                playerStats[2].gameObject.SetActive(false);
-            }
-        playerStats[2].charName = data.charName2;
-        playerStats[2].playerLevel = data.playerLevel2;
-        playerStats[2].currentEXP = data.currentEXP2;
-        playerStats[2].currentHP = data.currentHP2;
-        playerStats[2].maxHP = data.maxHP2;
-        playerStats[2].currentMP = data.currentMP2;
-        playerStats[2].maxMP = data.maxMP2;
-        playerStats[2].strength = data.strength2;
-        playerStats[2].defence = data.defence2;
-        playerStats[2].wpnPwr = data.wpnPwr2;
-        playerStats[2].armrPwr = data.armrPwr2;
-        playerStats[2].equippedWpn = data.equippedWpn2;
-        playerStats[2].equippedArmr = data.equippedArmr2;
 
 
         for(int i=0; i<theItems.Length; i++){
